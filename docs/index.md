@@ -5,9 +5,9 @@ description: Learn to code with free tutorials in HTML/CSS, Javascript, Python, 
 
 # Octallium
 
-Learn to code with free tutorials in HTML/CSS, Javascript, Python, Go, Dart, Rust, Angular, React, Vue, Mongo DB, PostgreSQL, Flutter, etc.
-
 ![Banner](./images/pages/octallium-landing-page-banner.png)
+
+Learn to code with free tutorials in HTML/CSS, Javascript, Python, Go, Dart, Rust, Angular, React, Vue, Mongo DB, PostgreSQL, Flutter, etc.
 
 <hr>
 

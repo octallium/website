@@ -84,11 +84,11 @@ nav:
   #     - Introduction: "basics/introduction.md"
   #     - Installation: "basics/installation.md"
   #     - Variables: "basics/variables.md"
-  # - About:
-  #     - "About": "about/about.md"
-  #     - "Contributing Content": "about/contribution.md"
-  #     - Donate: "about/donate.md"
-  #     - Sponsorship: "about/sponsorship.md"
+  - About:
+      - "About": "about/about.md"
+      - "Contributing Content": "about/contribution.md"
+      - Donate: "about/donate.md"
+      - Sponsorship: "about/sponsorship.md"
   # - Contact:
   #     - Subscribe: "contact/subscribe.md"
   #     - Connect: "contact/contact.md"

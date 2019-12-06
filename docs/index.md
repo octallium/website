@@ -15,7 +15,7 @@ Learn to code with free tutorials in HTML/CSS, Javascript, Python, Go, Dart, Rus
 
 **Octallium** is an online ninja training school ⚔️ for the **Coding Enthusiast** and dedicated to the programming toddlers. Start by learning how to hold basic programming chopsticks 🥢, then take the journey all the way to becoming a Programming Zen Master 🐲.
 
-We don't make any assumption about your prior programming knowledge and try to teach everything from scratch.
+I don't make any assumption about your prior programming knowledge and try to teach everything from scratch.
 
 Let the force be with you!
 
@@ -35,7 +35,7 @@ def hello():
 
 ## Please Consider a Donation ❤️
 
-All the work is provided free of cost and completely open source, but it needs your support and love to keep the activity sustainable.
+If you would like to see articles coming up much faster then please consider a small donation. All the work is provided free of cost and completely open source, but it needs your support and love to keep the activity sustainable.
 
 Any support is genuinely appreciated, you can help by sending a small donation by clicking the below link:
 

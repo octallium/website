@@ -2,7 +2,7 @@
 site_name: "Octallium"
 site_description: "Free Tutorials in HTML/CSS, Python, Go, Rust, Flutter, Dart, etc"
 site_author: "Anil Kulkarni"
-site_url: "https://www.octallium.org"
+site_url: "https://www.octallium.com"
 
 # Repository
 repo_name: "octallium/website"

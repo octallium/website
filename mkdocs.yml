@@ -1,0 +1,94 @@
+# Project information
+site_name: "Octallium"
+site_description: "Free Tutorials in HTML/CSS, Python, Go, Rust, Flutter, Dart, etc"
+site_author: "Anil Kulkarni"
+site_url: "https://www.octallium.org"
+
+# Repository
+repo_name: "octallium/website"
+repo_url: "https://github.com/octallium/website"
+
+# Copyright
+copyright: "Copyright &copy; 2019 Anil Kulkarni, Octallium Inc."
+
+# Configuration
+theme:
+  name: "material"
+  language: "en"
+  logo: "images/brand/octallium-header-logo-white.png"
+  favicon: "images/brand/octalallium-favicon.png"
+  palette:
+    primary: "indigo"
+    accent: "indigo"
+  font:
+    text: "Roboto"
+    code: "Roboto Mono"
+  feature:
+    tabs: true
+
+# Customization
+extra:
+  # manifest: "manifest.webmanifest"
+  social:
+    - type: "github"
+      link: "https://www.github.com/octallium"
+    - type: "youtube"
+      link: "https://www.youtube.com/channel/UCptVl5nZtCcx9SPOCqPnj7A"
+    - type: "twitter"
+      link: "https://twitter.com/octallium"
+    - type: "facebook"
+      link: "https://www.facebook.com/octallium"
+    - type: "instagram"
+      link: "https://www.instagram.com/octallium"
+    - type: "linkedin"
+      link: "https://www.linkedin.com/company/octallium"
+
+# Google Analytics
+# google_analytics:
+# - "UA-121309781-2"
+# - "auto"
+
+# Plugins
+plugins:
+  - search
+
+# Extensions
+markdown_extensions:
+  - meta
+  - admonition
+  - codehilite:
+      guess_lang: false
+      linenums: true
+  - toc:
+      permalink: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:pymdownx.emoji.to_svg
+  - pymdownx.inlinehilite
+  - pymdownx.magiclink
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+
+# Nav
+nav:
+  - Home: "index.md"
+  # - Basics:
+  #     - Introduction: "basics/introduction.md"
+  #     - Installation: "basics/installation.md"
+  #     - Variables: "basics/variables.md"
+  # - About:
+  #     - "About": "about/about.md"
+  #     - "Contributing Content": "about/contribution.md"
+  #     - Donate: "about/donate.md"
+  #     - Sponsorship: "about/sponsorship.md"
+  # - Contact:
+  #     - Subscribe: "contact/subscribe.md"
+  #     - Connect: "contact/contact.md"

@@ -1,14 +1,16 @@
-# Mega Python
+# Octallium
 
-Learn to code in python 🐍 with free tutorials, videos, courses and projects to become a complete python developer.
+Learn to code with free tutorials in HTML/CSS, Javascript, Python, Go, Dart, Rust, Angular, React, Vue, Mongo DB, PostgreSQL, Flutter, etc.
 
-![Banner](./images/banner.png)
+![Banner](./docs/images/pages/octallium-landing-page-banner.png)
+
+<hr>
 
 ## Introduction
 
-**Mega Python** is an online ninja training school ⚔️ for the Python Enthusiast and dedicated to the programming toddlers. Start by learning how to hold basic Python chopsticks 🥢, then take the journey all the way to becoming a Python Zen Master 🐲.
+**Octallium** is an online ninja training school ⚔️ for the Learning Enthusiast and dedicated to the programming toddlers. Start by learning how to hold basic programming chopsticks 🥢, then take the journey all the way to becoming a Programming Zen Master 🐲.
 
-I don't make any assumption about your prior programming knowledge and try to teach everything from scratch.
+We don't make any assumption about your prior programming knowledge and try to teach everything from scratch.
 
 Let the force be with you!
 
@@ -40,7 +42,7 @@ I would be posting updates twice a week, on Tuesday & Thursday (IST). Currently,
 
 ## Contributing Content
 
-The entire project is open source and available on Github, including this website which is using Github Pages. You can star, fork or better send a pull request, all the updates would be reviewed and posted as per the schedule. Currently the project is using Mkdocs, but aim to move to Django Framework somewhere in future.
+The entire project is open source and available on Github, including this website which is using Github Pages. You can star, fork or better send a pull request, all the updates would be reviewed and posted as per the schedule. Currently the project is using Mkdocs, but aim to move to custom web framework somewhere in the future.
 
 ## Please Donate ❤️
 

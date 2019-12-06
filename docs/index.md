@@ -1,7 +1,7 @@
 title: Welcome to Octallium
 description: Learn to code with free tutorials in HTML/CSS, Javascript, Python, Go, Dart, Rust, Angular, React, Vue, Mongo DB, PostgreSQL, Flutter, etc.
 
-<script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/855c4266d070e1fa933eae8f5/78a4be3f20f4598f36ed03876.js");</script>
+<script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/855c4266d070e1fa933eae8f5/5c022d5a7fcf57cb6545f5fce.js");</script>
 
 # Octallium
 
@@ -73,12 +73,12 @@ You can also help by sharing any of the website content or by following/liking/s
 <!-- Begin Mailchimp Signup Form -->
 <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
 <style type="text/css">
-	#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif;  width:500px;}
+	#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }
 	/* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
 	   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
 </style>
 <div id="mc_embed_signup">
-<form action="https://megapython.us4.list-manage.com/subscribe/post?u=855c4266d070e1fa933eae8f5&amp;id=cca7687fc6" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+<form action="https://octallium.us4.list-manage.com/subscribe/post?u=855c4266d070e1fa933eae8f5&amp;id=cca7687fc6" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
     <div id="mc_embed_signup_scroll">
 	<h2>Subscribe</h2>
 <div class="indicates-required"><span class="asterisk">*</span> indicates required</div>

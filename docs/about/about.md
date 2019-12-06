@@ -3,6 +3,8 @@ description: Get to know what drives Octallium
 
 # About
 
+![Banner](../images/pages/anil-kulkarni-octallium.jpg)
+
 Hi, my name is {==Anil Kulkarni==} and I am passionate about coding. I am a self learned programmer and enjoy my daily dose of coding. When I am not coding you can usually find me watching movies 🎬
 
 ## Post Schedule

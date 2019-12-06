@@ -44,9 +44,9 @@ extra:
       link: "https://www.linkedin.com/company/octallium"
 
 # Google Analytics
-# google_analytics:
-# - "UA-121309781-2"
-# - "auto"
+google_analytics:
+  - "UA-121309781-3"
+  - "auto"
 
 # Plugins
 plugins:

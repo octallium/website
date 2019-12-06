@@ -85,10 +85,10 @@ nav:
   #     - Installation: "basics/installation.md"
   #     - Variables: "basics/variables.md"
   - About:
-      - "About": "about/about.md"
+      - "About Me": "about/about-me.md"
       - "Contributing Content": "about/contribution.md"
       - Donate: "about/donate.md"
       - Sponsorship: "about/sponsorship.md"
-  # - Contact:
-  #     - Subscribe: "contact/subscribe.md"
-  #     - Connect: "contact/contact.md"
+  - Contact:
+      - Connect: "contact/contact.md"
+      - Subscribe: "contact/subscribe.md"

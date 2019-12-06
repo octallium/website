@@ -1,4 +1,4 @@
-title: Donate to Mega Python
+title: Donate to Octallium
 description: Help us in maintaining this project, its open source and free for all.
 
 # Donate

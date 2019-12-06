@@ -1,4 +1,4 @@
-title: About
+title: About Octallium
 description: Get to know what drives Octallium
 
 # About

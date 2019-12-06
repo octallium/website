@@ -6,7 +6,7 @@
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://www.octallium.com/about/about/</loc>
+     <loc>https://www.octallium.com/about/about-me/</loc>
      <lastmod>2019-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
@@ -22,6 +22,16 @@
     </url>
     <url>
      <loc>https://www.octallium.com/about/sponsorship/</loc>
+     <lastmod>2019-12-06</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://www.octallium.com/contact/contact/</loc>
+     <lastmod>2019-12-06</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://www.octallium.com/contact/subscribe/</loc>
      <lastmod>2019-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>

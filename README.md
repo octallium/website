@@ -4,8 +4,6 @@ Learn to code with free tutorials in HTML/CSS, Javascript, Python, Go, Dart, Rus
 
 ![Banner](./docs/images/pages/octallium-landing-page-banner.png)
 
-<hr>
-
 ## Introduction
 
 **Octallium** is an online ninja training school ⚔️ for the Learning Enthusiast and dedicated to the programming toddlers. Start by learning how to hold basic programming chopsticks 🥢, then take the journey all the way to becoming a Programming Zen Master 🐲.

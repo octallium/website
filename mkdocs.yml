@@ -51,6 +51,8 @@ google_analytics:
 # Plugins
 plugins:
   - search
+  - minify:
+      minify_html: true
 
 # Extensions
 markdown_extensions:

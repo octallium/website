@@ -2,7 +2,7 @@
 
 Learn to code with free tutorials in HTML/CSS, Javascript, Python, Go, Dart, Rust, Angular, React, Vue, Mongo DB, PostgreSQL, Flutter, etc.
 
-![Banner](./docs/images/pages/octallium-github-banner.png)
+![Banner](./docs/images/pages/banner.png)
 
 ## Introduction
 

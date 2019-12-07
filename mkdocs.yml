@@ -84,6 +84,11 @@ nav:
   #     - Introduction: "basics/introduction.md"
   #     - Installation: "basics/installation.md"
   #     - Variables: "basics/variables.md"
+  - Python:
+      - Basics:
+          - Introduction: "python/basics/introduction.md"
+          - Installation: "python/basics/installation.md"
+          - Variables: "python/basics/variables.md"
   - About:
       - "About Me": "about/about-me.md"
       - "Contributing Content": "about/contribution.md"

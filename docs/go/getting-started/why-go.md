@@ -3,6 +3,8 @@ description: Thinking about using Go (Golang) for your next project ?
 
 # Why Go ?
 
+![Go](../../images/go/gophercon_1.png)
+
 <hr>
 
 Its really an interesting question, why should you learn and use Go ?

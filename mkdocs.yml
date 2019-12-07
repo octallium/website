@@ -80,10 +80,6 @@ markdown_extensions:
 # Nav
 nav:
   - Home: "index.md"
-  # - Basics:
-  #     - Introduction: "basics/introduction.md"
-  #     - Installation: "basics/installation.md"
-  #     - Variables: "basics/variables.md"
   - Python:
       - Basics:
           - Introduction: "python/basics/introduction.md"
@@ -96,4 +92,5 @@ nav:
       - Sponsorship: "about/sponsorship.md"
   - Contact:
       - Connect: "contact/contact.md"
-      - Subscribe: "contact/subscribe.md"
+  - Subscribe:
+      - Subscribe: "subscribe.md"

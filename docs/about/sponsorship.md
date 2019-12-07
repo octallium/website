@@ -17,10 +17,6 @@ Want to showcase you brand on Octallium or sponsor any specific activities?
 
 4. **Full** size logo with custom link on 30 selected articles.
 
-We place your logo in **full** size and color with custom link on our landing page, contributors, contact, about page, plus we put your **full** size color logo and one custom article link in our weekly newsletter. Or, we can put promo code or one product display in our weekly newsletter.
-
-We can also distribute any custom merchandise or branded products to our subscribers or contributors. Finally, we can place your **full** size logo with custom link on 30 selected articles.
-
 ### Gold - $22,500
 
 1. **Medium** size color logo in landing, contributors, contact and about page.

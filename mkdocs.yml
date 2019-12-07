@@ -85,6 +85,26 @@ nav:
           - Introduction: "python/basics/introduction.md"
           - Installation: "python/basics/installation.md"
           - Variables: "python/basics/variables.md"
+  - Go:
+      - Getting Started:
+          - "Why Go": "go/getting-started/why-go.md"
+          - "Installation": "go/getting-started/installation.md"
+          - "Editors and IDE": "go/getting-started/editor_ide.md"
+      - Basics:
+          - Introduction: "go/basics/introduction.md"
+          - "01 Hello World": "go/basics/hello-world.md"
+          - "02 Understanding Hello World": "go/basics/hello-world-understand.md"
+          - "03 Adding a Comment": "go/basics/add-comment.md"
+          - "04 Understanding Data Types": "go/basics/basic-data-types.md"
+          - "05 Variables & Constants": "go/basics/variables-constants.md"
+          - "06 Shorthand Declaration": "go/basics/shorthand-declaration.md"
+          - "07 Condition - if/else": "go/basics/if-else.md"
+          - "08 For Loops": "go/basics/for_loops.md"
+          - "09 Function": "go/basics/functions.md"
+          - "10 Packages": "go/basics/packages.md"
+          - "11 Array": "go/basics/array.md"
+          - "12 Slice": "go/basics/slice.md"
+          - "13 Map": "go/basics/map.md"
   - About:
       - "About Me": "about/about-me.md"
       - "Contributing Content": "about/contribution.md"

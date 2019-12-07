@@ -11,7 +11,7 @@ Understanding {++ Array's++} in Go.
 
 ![Array](../../images/go/ice-cream-array-octallium.png)
 
-Imagine walking into an ice-cream store, you see all different flavor displayed nicely side-by-side, tempting isn't it ? You can easily see all the flavors and make your choice easily. This display of various ice-cream flavors is nothing by an "array" with the common item type of "ice-cream" !
+Imagine walking into an ice-cream store, you see all different flavor displayed nicely side-by-side, tempting isn't it ? You can easily see all the flavors and make your choice easily. This display of various ice-cream flavors is nothing but an "array" with the common item type of "ice-cream" !
 
 Go offers a couple of in-build data structures and one of them is an "array", you can imagine array as a collection of similar items, i.e you can group together common items.
 
@@ -243,7 +243,7 @@ code/basic/11_array/
 Once in the folder type the following command
 
 ```bash
-    go run array.go
+go run array.go
 ```
 
 ## Output

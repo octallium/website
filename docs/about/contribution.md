@@ -5,7 +5,7 @@ description: Its really easy to start contributing, no technical skills ? No pro
 
 The entire project is open source and available on Github, including this website which is using Github Pages. You can star, fork or even better send a pull request, all of the updates would be reviewed and merged as per the schedule.
 
-Currently the project is using Mkdocs to generate content, but aims to use custom web framework sometime in the future.
+Currently the project is using Mkdocs to generate content, but aims to use Phoenix Framework sometime in the future.
 
 **No technical skills** ? No Problem, you can still contribute by -
 

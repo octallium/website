@@ -1,72 +1,85 @@
-title: Welcome to Octallium!
-description: Learn to code with free tutorials in HTML/CSS, Javascript, Python, Go, Dart, Rust, Angular, React, Vue, Mongo DB, PostgreSQL, Flutter, etc.
+title: Welcome to Octallium  🐉
+description: Learn To Code With Erlang/Elixir Programming Languages And Phoenix Eco-system.
 
 <script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/855c4266d070e1fa933eae8f5/5c022d5a7fcf57cb6545f5fce.js");</script>
 
 # Octallium
 
-![Banner](./images/pages/banner.png)
+![Banner](./images/pages/octallium-banner.jpg)
 
-Learn to code with free tutorials in HTML/CSS, Javascript, Python, Go, Dart, Rust, Angular, React, Vue, Mongo DB, PostgreSQL, Flutter, etc.
+[Glass Painting of The Great Mahabharat Battle - By [Gunawan Kartapranata](https://en.wikipedia.org/wiki/Wayang#/media/File:Wayang_Painting_of_Bharatayudha_Battle.jpg) ]
+
+Today's programming world is just like this epic battle, with so many different programming languages battling for top spot and every language pitching its strongest point, this eventually gets us to the question, finally which is the best ?
+
+Sounds interesting ? Carry on...
 
 <hr>
 
 ## Introduction
 
-**Octallium** is an online ninja training school ⚔️ for the **Coding Enthusiast** and dedicated to the programming toddlers. Start by learning how to hold basic programming chopsticks 🥢, then take the journey all the way to becoming a Programming Zen Master 🐲
+**Octallium** presents a alternate programming paradigm using the **Erlang/Elixir & Phoenix** eco-system. This stack present a entirely new outlook with its functional style of programming and the awesome tooling.
 
-I don't make any assumption about your prior programming knowledge and try to teach everything from scratch.
+But why would anyone choose such a cryptic sounding stack?
+
+Answer - **Because it "Simply Works"!**
+
+## Why Erlang/Elixir And Phoenix?
+
+Every programming language is awesome only till the time it works for you and it's the worst when it doesn't, but its really up to you which demon you prefer, this is no **ONE** best language.
+
+There is this typical marketing pitch that Erlang/Elixir really offers excellent distributed concurrency, planet scalability, immutable values and fault tolerant systems, etc etc, but lets keep them aside for a while.
+
+The only pitch is, let yourself to be exposed to this really excellent eco-system and then decide your own choice of demon 🐲
+
+Chances are that you must have heard about **WhatsApp**, **Discord**, **Bleacher Report**, **Pinterest**, etc, they runs on Erlang/Elixir and about more than 50% of all telecom providers on the planet.
+
+If its so great why haven't I heard about it earlier? Carry on...
+
+## About Erlang/Elixir
+
+We need to give it, other languages did a fantastic job of presenting themself in a much better way, also the amount of marketing, conferences, sponsorships, etc have really shaped them to be much popular and widely used.
+
+Erlang/Elixir looks as if it has a cryptic syntax and functional programming makes them look difficult on the surface, but its really not the case, they are really great to work with and specially **Elixir** is designed to make developers feel **happy**.
+
+Feeling curious, what the hell is all this? Carry on...
+
+## What is Erlang, Elixir And Phoenix
+
+[Erlang/OTP](https://www.erlang.org/) is a concurrent functional programming language that forms the basic foundation, it was developed by Ericsson in 1986 and made open source in 1998. Erlang runs on its virtual machine called as the **BEAM**. OTP simply stands for **Open Telecom Platform**.
+
+[Elixir](https://elixir-lang.org/) builds on top of Erlang and provides a nice and easy way of interacting with the underlying system. It provides abstraction over Erlang, so that its easier for developers to code and finally it compiles to Erlang byte code.
+
+[Phoenix Framework](https://www.phoenixframework.org/) is a great set of tooling to create mature and blazing fast web applications, its based on Elixir and offers excellent framework to create highly scalable and concurrent distributed applications.
+
+We would be more focused on **Elixir & Phoenix**, but keep it mind that finally everything is compiled to Erlang byte code and runs on the BEAM.
+
+Elixir & Phoenix also has very good set of online documentation and the communities are also generally warm and helpful.
 
 Let the force be with you!
-
-## Audience
-
-The resources are intended for the beginners, toddlers, hobbyist coders, dedicated but not yet learnt and new programmers. It can also be used as a reference by more experienced developers.
 
 ## Code Sample
 
 All code will be in the form of following block
 
-```python
-# python code
-def hello():
-    print('Hello World')
+```elixir
+# Elixir code
+defmodule Hello do
+
+  def say do
+    :World
+  end
+  
+end
 ```
 
-## Please Consider a Donation ❤️
-
-If you would like to see articles coming up much faster then please consider a small donation. All the work is provided free of cost and completely open source, but it needs your support and love to keep the activity sustainable.
-
-Any support is genuinely appreciated, you can help by sending a small donation by clicking the below link:
-
-[<img src="images/paypal-logo.png" alt="Paypal" title="Paypal" width="200"/>](https://www.paypal.me/octallium)
-
-## Contact
-
-connect [at] octallium dot com
-
-## Sponsorship
+<!-- ## Sponsorship
 
 Please contact for sponsoring the project.
 
 <img src="images/your-brand.jpeg" alt="Paypal" title="Paypal" width="75"/>
 <img src="images/your-brand.jpeg" alt="Paypal" title="Paypal" width="75"/>
 <img src="images/your-brand.jpeg" alt="Paypal" title="Paypal" width="75"/>
-<img src="images/your-brand.jpeg" alt="Paypal" title="Paypal" width="75"/>
-
-## Links / Social Connect
-
-You can also help by sharing any of the website content or by following/liking/sharing social media handles.
-
-[Youtube](https://www.youtube.com/channel/UCEx4qP4PqDukN_EXMz4dC-Q)
-
-[Twitter](https://twitter.com/octallium)
-
-[Facebook](https://www.facebook.com/octallium)
-
-[Instagram](https://www.instagram.com/octallium)
-
-[LinkedIn](https://www.linkedin.com/company/octallium)
+<img src="images/your-brand.jpeg" alt="Paypal" title="Paypal" width="75"/> -->
 
 ## Get Updates
 
@@ -108,3 +121,11 @@ You can also help by sharing any of the website content or by following/liking/s
 <!--End mc_embed_signup-->
 
 Once a week updates about new content and articles, thats it!
+
+## Please Consider a Donation ❤️
+
+If you would like to see articles coming up much faster then please consider a small donation. All the work is provided free of cost and completely open source, but it needs your support and love to keep the activity sustainable.
+
+Any support is genuinely appreciated, you can help by sending a small donation by clicking the below link:
+
+[<img src="images/paypal-logo.png" alt="Paypal" title="Paypal" width="200"/>](https://www.paypal.me/octallium)

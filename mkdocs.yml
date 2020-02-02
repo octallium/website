@@ -1,12 +1,12 @@
 # Project information
 site_name: "Octallium"
-site_description: "Free Tutorials in HTML/CSS, Python, Go, Rust, Flutter, Dart, etc"
+site_description: "Learn To Code With Erlang/Elixir Programming Languages And Phoenix Framework."
 site_author: "Anil Kulkarni"
 site_url: "https://www.octallium.com"
 
 # Repository
-repo_name: "octallium/website"
-repo_url: "https://github.com/octallium/website"
+# repo_name: "octallium/website"
+# repo_url: "https://github.com/octallium/website"
 
 # Copyright
 copyright: "Copyright &copy; 2020 Anil Kulkarni, Octallium Inc."
@@ -82,6 +82,10 @@ markdown_extensions:
 # Nav
 nav:
   - Home: "index.md"
+  - Tutorials:
+      - Elixir:
+          - Basics:
+              - Installation: "tutorials/elixir/basics/installation.md"
   # - Python:
   #     - Basics:
   #         - Introduction: "python/basics/introduction.md"
@@ -111,7 +115,6 @@ nav:
       - "About Me": "about/about-me.md"
       - "Contributing Content": "about/contribution.md"
       - Donate: "about/donate.md"
-      # - Sponsorship: "about/sponsorship.md"
   - Subscribe:
       - Subscribe: "subscribe.md"
   - Contact:

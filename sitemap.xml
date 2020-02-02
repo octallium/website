@@ -16,6 +16,31 @@
      <changefreq>daily</changefreq>
     </url>
     <url>
+     <loc>https://www.octallium.com/tutorials/elixir/basics/data-types/</loc>
+     <lastmod>2020-02-02</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://www.octallium.com/tutorials/elixir/basics/basic-operations/</loc>
+     <lastmod>2020-02-02</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://www.octallium.com/tutorials/elixir/basics/pattern-matching/</loc>
+     <lastmod>2020-02-02</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://www.octallium.com/tutorials/elixir/basics/strings/</loc>
+     <lastmod>2020-02-02</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://www.octallium.com/tutorials/elixir/basics/lists/</loc>
+     <lastmod>2020-02-02</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
      <loc>https://www.octallium.com/about/about-me/</loc>
      <lastmod>2020-02-02</lastmod>
      <changefreq>daily</changefreq>

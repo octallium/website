@@ -1,5 +1,5 @@
 title: Welcome to Octallium  🐉
-description: Learn To Code With Erlang/Elixir Programming Languages And Phoenix Eco-system.
+description: Learn To Code With Erlang/Elixir Programming Languages And Phoenix Framework.
 
 <script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/855c4266d070e1fa933eae8f5/5c022d5a7fcf57cb6545f5fce.js");</script>
 
@@ -17,7 +17,7 @@ Sounds interesting ? Carry on...
 
 ## Introduction
 
-**Octallium** presents a alternate programming paradigm using the **Erlang/Elixir & Phoenix** eco-system. This stack present a entirely new outlook with its functional style of programming and the awesome tooling.
+**Octallium** presents an alternate programming paradigm using the **Erlang/Elixir & Phoenix** eco-system. This stack present a entirely new outlook with its functional style of programming and the awesome tooling.
 
 But why would anyone choose such a cryptic sounding stack?
 
@@ -25,9 +25,13 @@ Answer - **Because it "Simply Works"!**
 
 ## Why Erlang/Elixir And Phoenix?
 
+
+
 Every programming language is awesome only till the time it works for you and it's the worst when it doesn't, but its really up to you which demon you prefer, this is no **ONE** best language.
 
 There is this typical marketing pitch that Erlang/Elixir really offers excellent distributed concurrency, planet scalability, immutable values and fault tolerant systems, etc etc, but lets keep them aside for a while.
+
+![Languages](./images/pages/octallium-dilema-languages.jpg)
 
 The only pitch is, let yourself to be exposed to this really excellent eco-system and then decide your own choice of demon 🐲
 

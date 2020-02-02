@@ -85,6 +85,7 @@ nav:
   - Tutorials:
       - Elixir:
           - Basics:
+              - Introduction: "tutorials/elixir/basics/introduction.md"
               - Installation: "tutorials/elixir/basics/installation.md"
   # - Python:
   #     - Basics:

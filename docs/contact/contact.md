@@ -3,6 +3,8 @@ description: Get in touch with me
 
 # Contact
 
+![Contact](../images/pages/octallium-contact.jpg)
+
 Its always nice to hear from the community, please feel free to drop a mail to -
 
 connect [at] octallium (dot) com

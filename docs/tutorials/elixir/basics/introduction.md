@@ -15,7 +15,7 @@ It implies that, _"If you only have a hammer, every problem looks like a nail!"_
 
 Let's consider this, the world basically works by **communication**, means communication is required in every aspects of life, products communicate their utility, services communicate their usability, consumer communicate their requirements, etc, and in this world of communication **data** is constantly being passed from one point to another.
 
-**Elixir** is extremely well suited for these applications, it really shines when data has to be transferred in a highly distributed and fault tolerant manner. Perhaps, that's why products like WhatsApp, Discord & Telecom sector rely so highly on it.
+**Elixir** is extremely well suited for these applications, it really shines when data has to be transferred in a highly distributed and fault tolerant manner. Often, data has to be transformed to suit the end users, Elixir with all its eco-system is a perfectly capable system for it. Perhaps, that's why products like WhatsApp, Discord & Telecom sector rely so highly on it.
 
 If you are more interested in generating data, analysing data or manipulating data or create really low level applications, then you should consider having a look at other programming languages.
 

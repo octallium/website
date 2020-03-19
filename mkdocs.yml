@@ -15,7 +15,7 @@ copyright: "Copyright &copy; 2020 Anil Kulkarni, Octallium Inc."
 theme:
   name: "material"
   language: "en"
-  logo: "images/brand/octallium-header-logo-purple.png"
+  logo: "images/brand/octallium-logo-grey.png"
   favicon: "images/brand/octalallium-favicon.png"
   palette:
     primary: "white"
@@ -82,22 +82,24 @@ markdown_extensions:
 # Nav
 nav:
   - Home: "index.md"
-  - Tutorials:
-      - Elixir:
-          - Basics:
-              - Introduction: "tutorials/elixir/basics/introduction.md"
-              - Installation: "tutorials/elixir/basics/installation.md"
-              - "Data Types": "tutorials/elixir/basics/data-types.md"
-              - "Basic Operations": "tutorials/elixir/basics/basic-operations.md"
-              - "Pattern Matching": "tutorials/elixir/basics/pattern-matching.md"
-              - "Strings": "tutorials/elixir/basics/strings.md"
-              - "Lists": "tutorials/elixir/basics/lists.md"
+  # - Tutorials:
+  #     - Topics: "tutorials/topics.md"
+  - Python:
+      - Basics:
+          - Introduction: "tutorials/python/basics/introduction.md"
+          - Installation: "tutorials/python/basics/installation.md"
+          - Variables: "tutorials/python/basics/variables.md"
 
-  # - Python:
-  #     - Basics:
-  #         - Introduction: "python/basics/introduction.md"
-  #         - Installation: "python/basics/installation.md"
-  #         - Variables: "python/basics/variables.md"
+  - Elixir:
+      - Basics:
+          - Introduction: "tutorials/elixir/basics/introduction.md"
+          - Installation: "tutorials/elixir/basics/installation.md"
+          - "Data Types": "tutorials/elixir/basics/data-types.md"
+          - "Basic Operations": "tutorials/elixir/basics/basic-operations.md"
+          - "Pattern Matching": "tutorials/elixir/basics/pattern-matching.md"
+          - "Strings": "tutorials/elixir/basics/strings.md"
+          - "Lists": "tutorials/elixir/basics/lists.md"
+
   # - Go:
   #     - Getting Started:
   #         - "Why Go": "go/getting-started/why-go.md"

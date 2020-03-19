@@ -19,6 +19,53 @@ Let's consider this, the world basically works by **communication**, means commu
 
 If you are more interested in generating data, analysing data or manipulating data or create really low level applications, then you should consider having a look at other programming languages.
 
+## Why Erlang/Elixir And Phoenix?
+
+There is this typical marketing pitch that Erlang/Elixir really offers excellent distributed concurrency, planet scalability, immutable values and fault tolerant systems, etc etc, but lets keep them aside for a while.
+
+The only pitch is, let yourself to be exposed to this really excellent eco-system and then decide your own choice of demon 🐲
+
+Chances are that you must have heard about **WhatsApp**, **Discord**, **Bleacher Report**, **Pinterest**, etc, they runs on Erlang/Elixir and about more than 50% of all telecom providers on the planet.
+
+If its so great why haven't I heard about it earlier? Carry on...
+
+## About Erlang/Elixir
+
+We need to give it, other languages did a fantastic job of presenting themself in a much better way, also the amount of marketing, conferences, sponsorships, etc have really shaped them to be much popular and widely used.
+
+Erlang/Elixir looks as if it has a cryptic syntax and functional programming makes them look difficult on the surface, but its really not the case, they are really great to work with and specially **Elixir** is designed to make developers feel **happy**.
+
+Feeling curious, what the hell is all this? Carry on...
+
+## What is Erlang, Elixir And Phoenix
+
+[Erlang/OTP](https://www.erlang.org/) is a concurrent functional programming language that forms the basic foundation, it was developed by Ericsson in 1986 and made open source in 1998. Erlang runs on its virtual machine called as the **BEAM**. OTP simply stands for **Open Telecom Platform**.
+
+[Elixir](https://elixir-lang.org/) builds on top of Erlang and provides a nice and easy way of interacting with the underlying system. It provides abstraction over Erlang, so that its easier for developers to code and finally it compiles to Erlang byte code.
+
+[Phoenix Framework](https://www.phoenixframework.org/) is a great set of tooling to create mature and blazing fast web applications, its based on Elixir and offers excellent framework to create highly scalable and concurrent distributed applications.
+
+We would be more focused on **Elixir & Phoenix**, but keep it mind that finally everything is compiled to Erlang byte code and runs on the BEAM.
+
+Elixir & Phoenix also has very good set of online documentation and the communities are also generally warm and helpful.
+
+Let the force be with you!
+
+## Code Sample
+
+All code will be in the form of following block
+
+```elixir
+# Elixir code
+defmodule Hello do
+
+  def say do
+    :World
+  end
+  
+end
+```
+
 ## Understanding Elixir
 
 Elixir is a functional programming language, the word **functional** is important as it does not have the concept of **Objects or Classes**, if you come from a **Object Orientated Language** then you need to unlearn a lot of concepts in order to understand the functional paradigm.

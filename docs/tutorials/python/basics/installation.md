@@ -131,4 +131,4 @@ All the work is provided free of cost and completely open source, but it needs y
 
 Any support is genuinely appreciated, you can help by sending a small donation by clicking the below link:
 
-[<img src="../../../images/paypal-logo.png" alt="Paypal" title="Paypal" width="200"/>](https://www.paypal.me/octallium)
+[<img src="../../../../images/paypal-logo.png" alt="Paypal" title="Paypal" width="200"/>](https://www.paypal.me/octallium)

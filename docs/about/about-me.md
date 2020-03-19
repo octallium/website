@@ -17,8 +17,8 @@ I am still a beginner and try to share whatever I learn. I am open to any new op
 
 [Github](https://github.com/evolutionengine/)
 
-You can contact me on - anil.kulkarni [at] gmail com
+You can contact me on - connect [at] octallium (dot) com
 
 ## Motivation
 
-As a beginner I really struggled to find the right sources for learning and ended up taking a lot of free and paid online courses, which finally ended up in confusion and frustration. So I decided to write a simple to understand, beginner oriented resources for learning how to program.
+As a beginner I really struggled to find the right sources for learning and ended up taking a lot of free and paid online courses, which finally ended up in confusion and frustration. So I decided to write a simple to understand, beginner oriented resources for learning how to code.

@@ -5,9 +5,11 @@ description: Learn To Code With Erlang/Elixir Programming Languages And Phoenix 
 
 # Octallium
 
-![Banner](./images/pages/octallium-language-battle.jpg)
+![Banner](./images/pages/octallium-banner.jpg)
 
-Today's programming world is just like this epic battle scene, with so many different programming languages battling for top spot and every language pitching its strongest point, this eventually gets us to the question, finally which is the best ?
+[Glass Painting of The Great Mahabharat Battle - By [Gunawan Kartapranata](https://en.wikipedia.org/wiki/Wayang#/media/File:Wayang_Painting_of_Bharatayudha_Battle.jpg) ]
+
+Today's programming world is just like this epic battle, with so many different programming languages battling for top spot and every language pitching its strongest point, this eventually gets us to the question, finally which is the best ?
 
 Sounds interesting ? Carry on...
 
@@ -21,7 +23,17 @@ But why would you have to use multiple things for achieving your goal?
 
 Answer - **Because there is no silver bullet in programming.**
 
+<<<<<<< HEAD
 ## Why multiple languages/technologies?
+=======
+## Why Erlang/Elixir And Phoenix?
+
+
+
+Every programming language is awesome only till the time it works for you and it's the worst when it doesn't, but its really up to you which demon you prefer, this is no **ONE** best language.
+
+There is this typical marketing pitch that Erlang/Elixir really offers excellent distributed concurrency, planet scalability, immutable values and fault tolerant systems, etc etc, but lets keep them aside for a while.
+>>>>>>> parent of cb9acf0... correted typos
 
 ![Languages](./images/pages/octallium-dilema-languages.jpg)
 

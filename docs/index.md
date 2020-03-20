@@ -5,11 +5,9 @@ description: Learn To Code With Erlang/Elixir Programming Languages And Phoenix 
 
 # Octallium
 
-![Banner](./images/pages/octallium-banner.jpg)
+![Banner](./images/pages/octallium-language-battle.jpg)
 
-[Glass Painting of The Great Mahabharat Battle - By [Gunawan Kartapranata](https://en.wikipedia.org/wiki/Wayang#/media/File:Wayang_Painting_of_Bharatayudha_Battle.jpg) ]
-
-Today's programming world is just like this epic battle, with so many different programming languages battling for top spot and every language pitching its strongest point, this eventually gets us to the question, finally which is the best ?
+Today's programming world is just like this epic battle scene, with so many different programming languages battling for top spot and every language pitching its strongest point, this eventually gets us to the question, finally which is the best ?
 
 Sounds interesting ? Carry on...
 
@@ -17,29 +15,62 @@ Sounds interesting ? Carry on...
 
 ## Introduction
 
-**Octallium** presents a simple learning experience and on the way helps you to choose the right tools for the job. There are multiple software stacks in the industry, **stacks** simply means which programming languages are used along with other technologies such as frameworks, servers, database, etc.
+**Octallium** presents an alternate programming paradigm using the **Erlang/Elixir & Phoenix** eco-system. This stack present a entirely new outlook with its functional style of programming and the awesome tooling.
 
-But why would you have to use multiple things for achieving your goal?
+But why would anyone choose such a cryptic sounding stack?
 
-Answer - **Because there is no silver bullet in programming.**
+Answer - **Because it "Simply Works"!**
 
-<<<<<<< HEAD
-## Why multiple languages/technologies?
-=======
 ## Why Erlang/Elixir And Phoenix?
-
-
 
 Every programming language is awesome only till the time it works for you and it's the worst when it doesn't, but its really up to you which demon you prefer, this is no **ONE** best language.
 
 There is this typical marketing pitch that Erlang/Elixir really offers excellent distributed concurrency, planet scalability, immutable values and fault tolerant systems, etc etc, but lets keep them aside for a while.
->>>>>>> parent of cb9acf0... correted typos
 
 ![Languages](./images/pages/octallium-dilema-languages.jpg)
 
-Every programming language is awesome only till the time it works for you and it's the worst when it doesn't, but it's really up to you which demon(language) you prefer, there is no **ONE** best language.
+The only pitch is, let yourself to be exposed to this really excellent eco-system and then decide your own choice of demon 🐲
 
-Although you can achieve the same results using multiple languages, but often different languages serve a specific purpose and unfortunately as a programmer you will need to understand a couple of them before you can actually make anything fruitful.
+Chances are that you must have heard about **WhatsApp**, **Discord**, **Bleacher Report**, **Pinterest**, etc, they runs on Erlang/Elixir and about more than 50% of all telecom providers on the planet.
+
+If its so great why haven't I heard about it earlier? Carry on...
+
+## About Erlang/Elixir
+
+We need to give it, other languages did a fantastic job of presenting themself in a much better way, also the amount of marketing, conferences, sponsorships, etc have really shaped them to be much popular and widely used.
+
+Erlang/Elixir looks as if it has a cryptic syntax and functional programming makes them look difficult on the surface, but its really not the case, they are really great to work with and specially **Elixir** is designed to make developers feel **happy**.
+
+Feeling curious, what the hell is all this? Carry on...
+
+## What is Erlang, Elixir And Phoenix
+
+[Erlang/OTP](https://www.erlang.org/) is a concurrent functional programming language that forms the basic foundation, it was developed by Ericsson in 1986 and made open source in 1998. Erlang runs on its virtual machine called as the **BEAM**. OTP simply stands for **Open Telecom Platform**.
+
+[Elixir](https://elixir-lang.org/) builds on top of Erlang and provides a nice and easy way of interacting with the underlying system. It provides abstraction over Erlang, so that its easier for developers to code and finally it compiles to Erlang byte code.
+
+[Phoenix Framework](https://www.phoenixframework.org/) is a great set of tooling to create mature and blazing fast web applications, its based on Elixir and offers excellent framework to create highly scalable and concurrent distributed applications.
+
+We would be more focused on **Elixir & Phoenix**, but keep it mind that finally everything is compiled to Erlang byte code and runs on the BEAM.
+
+Elixir & Phoenix also has very good set of online documentation and the communities are also generally warm and helpful.
+
+Let the force be with you!
+
+## Code Sample
+
+All code will be in the form of following block
+
+```elixir
+# Elixir code
+defmodule Hello do
+
+  def say do
+    :World
+  end
+  
+end
+```
 
 <!-- ## Sponsorship
 

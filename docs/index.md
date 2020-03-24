@@ -23,7 +23,7 @@ Answer - **Because it "Simply Works"!**
 
 ## Why Erlang/Elixir And Phoenix?
 
-Every programming language is awesome only till the time it works for you and it's the worst when it doesn't, but its really up to you which demon you prefer, this is no **ONE** best language.
+Every programming language is awesome only till the time it works for you and it's the worst when it doesn't, but it's really up to you which demon(language) you prefer, there is no **ONE** best language.
 
 There is this typical marketing pitch that Erlang/Elixir really offers excellent distributed concurrency, planet scalability, immutable values and fault tolerant systems, etc etc, but lets keep them aside for a while.
 

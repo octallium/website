@@ -32,12 +32,12 @@ You can check the installation, by typing the following in your terminal or powe
 Output -
 
 ```bash hl_lines="3"
-Erlang/OTP 22 [erts-10.6.2] [source] [64-bit] [smp:4:4] [ds:4:4:10] [async-threads:1] [hipe] [dtrace]
+Erlang/OTP 22 [erts-10.6.4] [source] [64-bit] [smp:4:4] [ds:4:4:10] [async-threads:1] [hipe] [dtrace]
 
-Elixir 1.10.0 (compiled with Erlang/OTP 22)
+Elixir 1.10.2 (compiled with Erlang/OTP 22)
 ```
 
-Line 3 indicates that Elixir 1.10.0 has been installed and Elixir has been compiled with Erlang 22.0
+Line 3 indicates that Elixir 1.10.2 has been installed and Elixir has been compiled with Erlang 22.0
 
 ## Setting up your editor
 

@@ -96,3 +96,5 @@ iex(4)> i true
 ```
 
 Just read all the outputs, you are not required to understand everything just yet, but try to read and make sense of the output.
+
+{++Don't skip the exercises if you really want to learn Elixir! However simple they may seem, its important to try them out yourself!++}

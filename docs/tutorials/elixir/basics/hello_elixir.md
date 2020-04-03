@@ -1,6 +1,6 @@
 # Hello Elixir
 
-You first `Hello World` program in Elixir.
+Learn how to make your first `Hello World` program in Elixir.
 
 ## Using IEx
 
@@ -69,10 +69,30 @@ The choice of using brackets or not is upto you, personally I like using bracket
 
 ## Exercises
 
-Create and run a script file that will print the following. Make sure to make a new file with `exs` extension and run it from your terminal.
+1) Create and run a script file that will print the following. Make sure to make a new file with `exs` extension and run it from your terminal.
 
 `"Elixir Rocks!!!"`
 
-And one more script that will print -
+2) And one more script that will print -
 
 `"Hi, my name is Octallium and I am learning Elixir"`
+
+3) What is the result of -
+
+```bash
+iex(1)> IO.puts 7 + 6
+```
+
+4) And
+
+```bash
+iex(1)> IO.puts "7 + 6"
+```
+
+5) For some fun try running this -
+
+```bash
+iex(1)> IO.puts "Hello " <> "World"
+```
+
+{++Don't skip the exercises if you really want to learn Elixir! However simple they may seem, its important to try them out yourself!++}

@@ -88,6 +88,7 @@ nav:
               - Introduction: "tutorials/elixir/basics/introduction.md"
               - Installation: "tutorials/elixir/basics/installation.md"
               - IEx: "tutorials/elixir/basics/iex.md"
+              - "Hello Elixir": "tutorials/elixir/basics/hello_elixir.md"
               - "Data Types": "tutorials/elixir/basics/data-types.md"
               - "Basic Operations": "tutorials/elixir/basics/basic-operations.md"
               - "Pattern Matching": "tutorials/elixir/basics/pattern-matching.md"

@@ -98,3 +98,11 @@ iex(4)> i true
 Just read all the outputs, you are not required to understand everything just yet, but try to read and make sense of the output.
 
 {++Don't skip the exercises if you really want to learn Elixir! However simple they may seem, its important to try them out yourself!++}
+
+## Please Consider a Donation ❤️
+
+If you would like to see articles coming up much faster then please consider a small donation. All the work is provided free of cost and completely open source, but it needs your support and love to keep the activity sustainable.
+
+Any support is genuinely appreciated, you can help by sending a small donation by clicking the below link:
+
+[<img src="../../../../images/paypal-logo.png" alt="Paypal" title="Paypal" width="200"/>](https://www.paypal.me/octallium)

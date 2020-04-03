@@ -52,3 +52,11 @@ You only need to install [this](https://marketplace.visualstudio.com/items?itemN
 You need to install [this](https://atom.io/packages/language-elixir) plugin.
 
 Further, I have read nice reviews for [Spacemacs](https://www.spacemacs.org/), however I have not tested it personally.
+
+## Please Consider a Donation ❤️
+
+If you would like to see articles coming up much faster then please consider a small donation. All the work is provided free of cost and completely open source, but it needs your support and love to keep the activity sustainable.
+
+Any support is genuinely appreciated, you can help by sending a small donation by clicking the below link:
+
+[<img src="../../../../images/paypal-logo.png" alt="Paypal" title="Paypal" width="200"/>](https://www.paypal.me/octallium)

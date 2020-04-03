@@ -38,3 +38,11 @@ Erlang offers more than 30 years of rock solid performance and also the availabi
 Elixir has a set of very nice online [documentation](https://elixir-lang.org/docs.html) and [guides](https://elixir-lang.org/learning.html).
 
 [Elixir Forum](https://elixirforum.com/) is an excellent place to post queries and interact with the community.
+
+## Please Consider a Donation ❤️
+
+If you would like to see articles coming up much faster then please consider a small donation. All the work is provided free of cost and completely open source, but it needs your support and love to keep the activity sustainable.
+
+Any support is genuinely appreciated, you can help by sending a small donation by clicking the below link:
+
+[<img src="../../../../images/paypal-logo.png" alt="Paypal" title="Paypal" width="200"/>](https://www.paypal.me/octallium)

@@ -15,8 +15,6 @@ I normally try to get back immediately or within 12 hrs of receiving the mail.
 
 You can always socially connect -
 
-[Github](https://www.github.com/octallium/website)
-
 [Youtube](https://www.youtube.com/channel/UCEx4qP4PqDukN_EXMz4dC-Q)
 
 [Twitter](https://twitter.com/octallium)

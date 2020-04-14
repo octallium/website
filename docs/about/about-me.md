@@ -9,7 +9,7 @@ Hi, my name is **Anil Kulkarni** and I am passionate about coding. I am a self l
 
 ## Background
 
-I have done my Mechanical Engineering and then completed masters in Marketing Management, I was always passionate about creating things, my last venture was making "Handmade Soaps" and while creating an e-commerce website for it, the coding bug caught up with me and I have been learning programming ever since.
+I have done my **Mechanical Engineering** and then completed **Masters In Marketing Management**, I was always passionate about creating things, my last venture was making "Handmade Soaps" and while making e-commerce website for it, coding bug caught up with me and I have been learning programming ever since.
 
 I am still a beginner and try to share whatever I learn. I am open to any new opportunities, you can checkout my profile at -
 

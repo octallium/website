@@ -82,18 +82,27 @@ markdown_extensions:
 # Nav
 nav:
   - Home: "index.md"
-  - Tutorials:
-      - Elixir:
-          - Basics:
-              - Introduction: "tutorials/elixir/basics/introduction.md"
-              - Installation: "tutorials/elixir/basics/installation.md"
-              - IEx: "tutorials/elixir/basics/iex.md"
-              - "Hello Elixir": "tutorials/elixir/basics/hello_elixir.md"
-              - "Data Types": "tutorials/elixir/basics/data-types.md"
-              - "Basic Operations": "tutorials/elixir/basics/basic-operations.md"
-              - "Pattern Matching": "tutorials/elixir/basics/pattern-matching.md"
-              - "Strings": "tutorials/elixir/basics/strings.md"
-              - "Lists": "tutorials/elixir/basics/lists.md"
+  - About:
+      - "About Me": "about/about-me.md"
+      - "Contributing Content": "about/contribution.md"
+  - Donate:
+      - Donate: "donate.md"
+  - Python:
+      - Basics:
+          - Introduction: "tutorials/python/basics/introduction.md"
+          - Installation: "tutorials/python/basics/installation.md"
+          - Variables: "tutorials/python/basics/variables.md"
+  - Elixir:
+      - Basics:
+          - Introduction: "tutorials/elixir/basics/introduction.md"
+          - Installation: "tutorials/elixir/basics/installation.md"
+          - IEx: "tutorials/elixir/basics/iex.md"
+          - "Hello Elixir": "tutorials/elixir/basics/hello_elixir.md"
+          - "Data Types": "tutorials/elixir/basics/data-types.md"
+          - "Basic Operations": "tutorials/elixir/basics/basic-operations.md"
+          - "Pattern Matching": "tutorials/elixir/basics/pattern-matching.md"
+          - "Strings": "tutorials/elixir/basics/strings.md"
+          - "Lists": "tutorials/elixir/basics/lists.md"
 
   # - Python:
   #     - Basics:
@@ -120,10 +129,7 @@ nav:
   #         - "11 Array": "go/basics/array.md"
   #         - "12 Slice": "go/basics/slice.md"
   #         - "13 Map": "go/basics/map.md"
-  - About:
-      - "About Me": "about/about-me.md"
-      - "Contributing Content": "about/contribution.md"
-      - Donate: "about/donate.md"
+
   - Subscribe:
       - Subscribe: "subscribe.md"
   - Contact:

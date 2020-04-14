@@ -3,7 +3,7 @@ description: Learn how to create variables in Python 3
 
 # Variables
 
-![Variables](../../images/python/octallium_python_variables.png)
+![Variables](../../../images/python/octallium_python_variables.png)
 
 <hr>
 
@@ -128,7 +128,7 @@ As you must have noticed {==box==} is just a placeholder, we can assign differen
 
 ## Please Consider a Donation ❤️
 
-All the work is provided free of cost and completely open source, but it needs your support and love to keep the activity sustainable.
+If you would like to see videos and articles coming up much faster then please consider a small donation. It needs your support and love to keep the activity sustainable.
 
 Any support is genuinely appreciated, you can help by sending a small donation by clicking the below link:
 

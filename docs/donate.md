@@ -3,7 +3,7 @@ description: Help us in maintaining this project, its open source and free for a
 
 # Donate
 
-![Donate](../images/pages/octallium-donate.jpg)
+![Donate](./images/pages/octallium-donate.jpg)
 
 
 Project like this require funding to maintain and generate content.

@@ -51,8 +51,8 @@ Octallium aims to teach Python 3 right from basics to advanced. Ofcouse, its not
 
 ## Please Consider a Donation ❤️
 
-All the work is provided free of cost and completely open source, but it needs your support and love to keep the activity sustainable.
+If you would like to see videos and articles coming up much faster then please consider a small donation. It needs your support and love to keep the activity sustainable.
 
 Any support is genuinely appreciated, you can help by sending a small donation by clicking the below link:
 
-[<img src="../../../images/paypal-logo.png" alt="Paypal" title="Paypal" width="200"/>](https://www.paypal.me/octallium)
+[<img src="../../../../images/paypal-logo.png" alt="Paypal" title="Paypal" width="200"/>](https://www.paypal.me/octallium)

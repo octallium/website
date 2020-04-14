@@ -1,5 +1,5 @@
 title: Welcome to Octallium!
-description: Coding Tutorials For The Unsullied ⚔. Mostly about HTML, CSS, Python, Flutter, Elixir And Phoenix Framework.
+description: Learn To Code With Erlang/Elixir Programming Languages And Phoenix Framework.
 
 <script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/855c4266d070e1fa933eae8f5/5c022d5a7fcf57cb6545f5fce.js");</script>
 
@@ -9,41 +9,53 @@ description: Coding Tutorials For The Unsullied ⚔. Mostly about HTML, CSS, Pyt
 
 <!-- <iframe width="680" height="382" src="https://www.youtube.com/embed/NbqhRSqtWQs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
 
-Today's world is filled with diversity, we all come from different backgrounds and yet some traits remain common amongst all of us. All of us have to learn so many thing since our birth, programming is one such thing and it just happens to be logical extension of your curiosity.
+Today's programming world is just like this epic battle scene, with so many different programming languages battling for top spot and every language pitching its strongest point, this eventually gets us to the question, finally which is the best ?
 
-If you are on such a journey, you have perhaps come to the right place! Sounds interesting ? Carry on...
+Sounds interesting ? Carry on...
 
 <hr>
 
 ## Introduction
 
-**Programming languages** were made by people for people, but some of the creators got a little creative on the way and came up with strange symbols and syntax, couldn't programming be done in plain English or Marathi or Japanese or in your mother tongue? Perhaps not!
+**Octallium** presents an alternate programming paradigm using the **Erlang/Elixir & Phoenix** eco-system. This stack present a entirely new outlook with its functional style of programming and the awesome tooling.
 
-It takes a lot more to bring all the **diversity and complexity** of the real world and pack it in a programming language, however I do agree some programming languages feel weird, sometimes I even thought learning Martian would have been better!
+But why would anyone choose such a cryptic sounding stack?
 
-But why would anyone choose to learn such cryptic sounding stuff?
+Answer - **Because it "Simply Works"!**
 
-Answer - **To make or break things!**
+## Why Erlang/Elixir And Phoenix?
 
-## Learning
+Every programming language is awesome only till the time it works for you and it's the worst when it doesn't, but it's really up to you which demon(language) you prefer, there is no **ONE** best language.
 
-**Octallium** presents easy to understand **videos, tutorials and articles** to navigate through these cryptic things in the most simplest way possible. Majority of the content starts for beginners and then progressively builds up till you can work on real life scenarios.
-
-Every programming language is awesome only till the time it works for you and it's the worst when it doesn't, but it's really up to you which language you prefer, there is no **ONE** best language.
-
-I love to call programming languages as **"demons"**, they offer great power, but you need to learn to handle them well.
+There is this typical marketing pitch that Erlang/Elixir really offers excellent distributed concurrency, planet scalability, immutable values and fault tolerant systems, etc etc, but lets keep them aside for a while.
 
 ![Languages](./images/pages/octallium-dilema-languages.jpg)
 
-How to I choose my choice of language? Carry on...
+The only pitch is, let yourself to be exposed to this really excellent eco-system and then decide your own choice of demon 🐲
 
-## Which demon to tame?
+Chances are that you must have heard about **WhatsApp**, **Discord**, **Bleacher Report**, **Pinterest**, etc, they runs on Erlang/Elixir and about more than 50% of all telecom providers on the planet.
 
-So which language you should learn? No one can answer that correctly, you need to experiment with different languages and choose your demon 🐲. However, depending on the scenario you would have to learn a certain language, e.g - for creating websites, you absolutely need to know HTML, CSS and some Javascript.
+If its so great why haven't I heard about it earlier? Carry on...
 
-Its normal for anyone to learn more than half dozen languages in the course of their career. More you expose yourself to different languages, better would be your understanding.
+## About Erlang/Elixir
 
-At **Octallium** most of the content would be related to **HTML, CSS, Javascript, Python, Flutter, Elixir and Phoenix Framework**.
+We need to give it, other languages did a fantastic job of presenting themself in a much better way, also the amount of marketing, conferences, sponsorships, etc have really shaped them to be much popular and widely used.
+
+Erlang/Elixir looks as if it has a cryptic syntax and functional programming makes them look difficult on the surface, but its really not the case, they are really great to work with and specially **Elixir** is designed to make developers feel **happy**.
+
+Feeling curious, what the hell is all this? Carry on...
+
+## What is Erlang, Elixir And Phoenix
+
+[Erlang/OTP](https://www.erlang.org/) is a concurrent functional programming language that forms the basic foundation, it was developed by Ericsson in 1986 and made open source in 1998. Erlang runs on its virtual machine called as the **BEAM**. OTP simply stands for **Open Telecom Platform**.
+
+[Elixir](https://elixir-lang.org/) builds on top of Erlang and provides a nice and easy way of interacting with the underlying system. It provides abstraction over Erlang, so that its easier for developers to code and finally it compiles to Erlang byte code.
+
+[Phoenix Framework](https://www.phoenixframework.org/) is a great set of tooling to create mature and blazing fast web applications, its based on Elixir and offers excellent framework to create highly scalable and concurrent distributed applications.
+
+We would be more focused on **Elixir & Phoenix**, but keep it mind that finally everything is compiled to Erlang byte code and runs on the BEAM.
+
+Elixir & Phoenix also has very good set of online documentation and the communities are also generally warm and helpful.
 
 Let the force be with you!
 
@@ -52,7 +64,7 @@ Let the force be with you!
 All code will be in the form of following block
 
 ```elixir
-# Elixir
+# Elixir code
 defmodule Hello do
 
   def say do
@@ -114,7 +126,7 @@ Once a week updates about new content and articles, thats it!
 
 ## Please Consider a Donation ❤️
 
-If you would like to see videos and articles coming up much faster then please consider a small donation. It needs your support and love to keep the activity sustainable.
+If you would like to see articles coming up much faster then please consider a small donation. All the work is provided free of cost and completely open source, but it needs your support and love to keep the activity sustainable.
 
 Any support is genuinely appreciated, you can help by sending a small donation by clicking the below link:
 

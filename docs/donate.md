@@ -5,7 +5,6 @@ description: Help us in maintaining this project, its open source and free for a
 
 ![Donate](./images/pages/octallium-donate.jpg)
 
-
 Project like this require funding to maintain and generate content.
 
 Currently this is my side project and I try to dedicate as much time and efforts possible, but with your help, I could create a lot more content for the community.

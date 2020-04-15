@@ -1,6 +1,10 @@
 title: Introduction to Elixir
 description: Understand what Elixir is all about
 
+!!! success "Learn Elixir"
+
+    The `Only` **Elixir Tutorials** On The Planet For Complete Beginners Exclusively On **Octallium**!
+
 # Introduction
 
 ![Introduction to Elixir](../../../images/pages/octallium-elixir-introduction.jpg)

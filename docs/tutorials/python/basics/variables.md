@@ -3,7 +3,7 @@ description: Learn how to create variables in Python 3
 
 # Variables
 
-![Variables](../../../images/python/octallium_python_variables.png)
+![Variables](../../../assets/images/python/octallium_python_variables.png)
 
 <hr>
 

@@ -7,7 +7,7 @@ description: Understand what Elixir is all about
 
 # Introduction
 
-![Introduction to Elixir](../../../images/pages/octallium-elixir-introduction.jpg)
+![Introduction to Elixir](../../../assets/images/pages/octallium-elixir-introduction.jpg)
 
 Considering **Elixir** ? Or maybe just curious ? Chances are you already have some experience with programming or if you are a complete beginner, I couldn't be any more happy!
 
@@ -59,4 +59,4 @@ If you would like to see videos and articles coming up much faster then please c
 
 Any support is genuinely appreciated, you can help by sending a small donation by clicking the below link:
 
-[<img src="../../../../images/paypal-logo.png" alt="Paypal" title="Paypal" width="200"/>](https://www.paypal.me/octallium)
+[<img src="../../../../assets/images/paypal-logo.png" alt="Paypal" title="Paypal" width="200"/>](https://www.paypal.me/octallium)

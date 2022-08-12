@@ -3,7 +3,7 @@ description: Learn how to install Elixir on your machine
 
 # Installation
 
-![Introduction to Elixir](../../../images/tutorial-elixir/octallium-installing-elixir.jpg)
+![Introduction to Elixir](../../../assets/images/tutorial-elixir/octallium-installing-elixir.jpg)
 
 Learn how to install Elixir and how to setup your machine for development.
 
@@ -59,4 +59,4 @@ If you would like to see articles coming up much faster then please consider a s
 
 Any support is genuinely appreciated, you can help by sending a small donation by clicking the below link:
 
-[<img src="../../../../images/paypal-logo.png" alt="Paypal" title="Paypal" width="200"/>](https://www.paypal.me/octallium)
+[<img src="../../../../assets/images/paypal-logo.png" alt="Paypal" title="Paypal" width="200"/>](https://www.paypal.me/octallium)

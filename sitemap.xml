@@ -2,377 +2,382 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://www.octallium.com/</loc>
-         <lastmod>2022-10-05</lastmod>
+         <lastmod>2022-10-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://www.octallium.com/about/</loc>
-         <lastmod>2022-10-05</lastmod>
+         <lastmod>2022-10-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://www.octallium.com/article/</loc>
-         <lastmod>2022-10-05</lastmod>
+         <lastmod>2022-10-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://www.octallium.com/buy-me-a-coffee/</loc>
+         <lastmod>2022-10-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://www.octallium.com/contact/</loc>
-         <lastmod>2022-10-05</lastmod>
+         <lastmod>2022-10-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://www.octallium.com/subscribe/</loc>
-         <lastmod>2022-10-05</lastmod>
+         <lastmod>2022-10-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://www.octallium.com/contact/contact/</loc>
-         <lastmod>2022-10-05</lastmod>
+         <lastmod>2022-10-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://www.octallium.com/courses/go/modern-go-101/</loc>
-         <lastmod>2022-10-05</lastmod>
+         <lastmod>2022-10-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://www.octallium.com/courses/python/modern-python-101-workouts/</loc>
-         <lastmod>2022-10-05</lastmod>
+         <lastmod>2022-10-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://www.octallium.com/courses/python/modern-python-101/</loc>
-         <lastmod>2022-10-05</lastmod>
+         <lastmod>2022-10-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://www.octallium.com/tutorials/elixir/basics/agent/</loc>
-         <lastmod>2022-10-05</lastmod>
+         <lastmod>2022-10-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://www.octallium.com/tutorials/elixir/basics/alias-require-import/</loc>
-         <lastmod>2022-10-05</lastmod>
+         <lastmod>2022-10-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://www.octallium.com/tutorials/elixir/basics/basic-operations/</loc>
-         <lastmod>2022-10-05</lastmod>
+         <lastmod>2022-10-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://www.octallium.com/tutorials/elixir/basics/case-cond-if/</loc>
-         <lastmod>2022-10-05</lastmod>
+         <lastmod>2022-10-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://www.octallium.com/tutorials/elixir/basics/comprehensions/</loc>
-         <lastmod>2022-10-05</lastmod>
+         <lastmod>2022-10-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://www.octallium.com/tutorials/elixir/basics/data-types/</loc>
-         <lastmod>2022-10-05</lastmod>
+         <lastmod>2022-10-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://www.octallium.com/tutorials/elixir/basics/doctest/</loc>
-         <lastmod>2022-10-05</lastmod>
+         <lastmod>2022-10-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://www.octallium.com/tutorials/elixir/basics/enum/</loc>
-         <lastmod>2022-10-05</lastmod>
+         <lastmod>2022-10-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://www.octallium.com/tutorials/elixir/basics/erlang-lib/</loc>
-         <lastmod>2022-10-05</lastmod>
+         <lastmod>2022-10-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://www.octallium.com/tutorials/elixir/basics/ets/</loc>
-         <lastmod>2022-10-05</lastmod>
+         <lastmod>2022-10-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://www.octallium.com/tutorials/elixir/basics/file-handling/</loc>
-         <lastmod>2022-10-05</lastmod>
+         <lastmod>2022-10-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://www.octallium.com/tutorials/elixir/basics/genserver/</loc>
-         <lastmod>2022-10-05</lastmod>
+         <lastmod>2022-10-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://www.octallium.com/tutorials/elixir/basics/hello_elixir/</loc>
-         <lastmod>2022-10-05</lastmod>
+         <lastmod>2022-10-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://www.octallium.com/tutorials/elixir/basics/iex/</loc>
-         <lastmod>2022-10-05</lastmod>
+         <lastmod>2022-10-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://www.octallium.com/tutorials/elixir/basics/installation/</loc>
-         <lastmod>2022-10-05</lastmod>
+         <lastmod>2022-10-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://www.octallium.com/tutorials/elixir/basics/introduction/</loc>
-         <lastmod>2022-10-05</lastmod>
+         <lastmod>2022-10-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://www.octallium.com/tutorials/elixir/basics/iterable/</loc>
-         <lastmod>2022-10-05</lastmod>
+         <lastmod>2022-10-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://www.octallium.com/tutorials/elixir/basics/lists/</loc>
-         <lastmod>2022-10-05</lastmod>
+         <lastmod>2022-10-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://www.octallium.com/tutorials/elixir/basics/map/</loc>
-         <lastmod>2022-10-05</lastmod>
+         <lastmod>2022-10-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://www.octallium.com/tutorials/elixir/basics/mix/</loc>
-         <lastmod>2022-10-05</lastmod>
+         <lastmod>2022-10-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://www.octallium.com/tutorials/elixir/basics/modules-functions/</loc>
-         <lastmod>2022-10-05</lastmod>
+         <lastmod>2022-10-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://www.octallium.com/tutorials/elixir/basics/otp/</loc>
-         <lastmod>2022-10-05</lastmod>
+         <lastmod>2022-10-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://www.octallium.com/tutorials/elixir/basics/pattern-matching/</loc>
-         <lastmod>2022-10-05</lastmod>
+         <lastmod>2022-10-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://www.octallium.com/tutorials/elixir/basics/pipe/</loc>
-         <lastmod>2022-10-05</lastmod>
+         <lastmod>2022-10-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://www.octallium.com/tutorials/elixir/basics/processes/</loc>
-         <lastmod>2022-10-05</lastmod>
+         <lastmod>2022-10-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://www.octallium.com/tutorials/elixir/basics/protocols/</loc>
-         <lastmod>2022-10-05</lastmod>
+         <lastmod>2022-10-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://www.octallium.com/tutorials/elixir/basics/sigil/</loc>
-         <lastmod>2022-10-05</lastmod>
+         <lastmod>2022-10-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://www.octallium.com/tutorials/elixir/basics/spawn/</loc>
-         <lastmod>2022-10-05</lastmod>
+         <lastmod>2022-10-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://www.octallium.com/tutorials/elixir/basics/stream/</loc>
-         <lastmod>2022-10-05</lastmod>
+         <lastmod>2022-10-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://www.octallium.com/tutorials/elixir/basics/strings/</loc>
-         <lastmod>2022-10-05</lastmod>
+         <lastmod>2022-10-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://www.octallium.com/tutorials/elixir/basics/struct/</loc>
-         <lastmod>2022-10-05</lastmod>
+         <lastmod>2022-10-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://www.octallium.com/tutorials/elixir/basics/supervisor/</loc>
-         <lastmod>2022-10-05</lastmod>
+         <lastmod>2022-10-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://www.octallium.com/tutorials/elixir/basics/task/</loc>
-         <lastmod>2022-10-05</lastmod>
+         <lastmod>2022-10-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://www.octallium.com/tutorials/elixir/basics/testing/</loc>
-         <lastmod>2022-10-05</lastmod>
+         <lastmod>2022-10-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://www.octallium.com/tutorials/python/basics/data-types/</loc>
-         <lastmod>2022-10-05</lastmod>
+         <lastmod>2022-10-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://www.octallium.com/tutorials/python/basics/dictionary/</loc>
-         <lastmod>2022-10-05</lastmod>
+         <lastmod>2022-10-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://www.octallium.com/tutorials/python/basics/error-handling/</loc>
-         <lastmod>2022-10-05</lastmod>
+         <lastmod>2022-10-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://www.octallium.com/tutorials/python/basics/file-handling/</loc>
-         <lastmod>2022-10-05</lastmod>
+         <lastmod>2022-10-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://www.octallium.com/tutorials/python/basics/functions/</loc>
-         <lastmod>2022-10-05</lastmod>
+         <lastmod>2022-10-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://www.octallium.com/tutorials/python/basics/if-else/</loc>
-         <lastmod>2022-10-05</lastmod>
+         <lastmod>2022-10-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://www.octallium.com/tutorials/python/basics/installation/</loc>
-         <lastmod>2022-10-05</lastmod>
+         <lastmod>2022-10-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://www.octallium.com/tutorials/python/basics/introduction/</loc>
-         <lastmod>2022-10-05</lastmod>
+         <lastmod>2022-10-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://www.octallium.com/tutorials/python/basics/list/</loc>
-         <lastmod>2022-10-05</lastmod>
+         <lastmod>2022-10-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://www.octallium.com/tutorials/python/basics/loops/</loc>
-         <lastmod>2022-10-05</lastmod>
+         <lastmod>2022-10-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://www.octallium.com/tutorials/python/basics/oop/</loc>
-         <lastmod>2022-10-05</lastmod>
+         <lastmod>2022-10-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://www.octallium.com/tutorials/python/basics/packages/</loc>
-         <lastmod>2022-10-05</lastmod>
+         <lastmod>2022-10-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://www.octallium.com/tutorials/python/basics/set/</loc>
-         <lastmod>2022-10-05</lastmod>
+         <lastmod>2022-10-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://www.octallium.com/tutorials/python/basics/static-typing/</loc>
-         <lastmod>2022-10-05</lastmod>
+         <lastmod>2022-10-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://www.octallium.com/tutorials/python/basics/strings/</loc>
-         <lastmod>2022-10-05</lastmod>
+         <lastmod>2022-10-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://www.octallium.com/tutorials/python/basics/tuple/</loc>
-         <lastmod>2022-10-05</lastmod>
+         <lastmod>2022-10-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://www.octallium.com/tutorials/python/basics/variables/</loc>
-         <lastmod>2022-10-05</lastmod>
+         <lastmod>2022-10-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://www.octallium.com/tutorials/python/intermediate/abc-class/</loc>
-         <lastmod>2022-10-05</lastmod>
+         <lastmod>2022-10-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://www.octallium.com/tutorials/python/intermediate/async-await/</loc>
-         <lastmod>2022-10-05</lastmod>
+         <lastmod>2022-10-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://www.octallium.com/tutorials/python/intermediate/cli/</loc>
-         <lastmod>2022-10-05</lastmod>
+         <lastmod>2022-10-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://www.octallium.com/tutorials/python/intermediate/database/</loc>
-         <lastmod>2022-10-05</lastmod>
+         <lastmod>2022-10-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://www.octallium.com/tutorials/python/intermediate/functional-programming/</loc>
-         <lastmod>2022-10-05</lastmod>
+         <lastmod>2022-10-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://www.octallium.com/tutorials/python/intermediate/generators-iterators/</loc>
-         <lastmod>2022-10-05</lastmod>
+         <lastmod>2022-10-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://www.octallium.com/tutorials/python/intermediate/intro-http/</loc>
-         <lastmod>2022-10-05</lastmod>
+         <lastmod>2022-10-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://www.octallium.com/tutorials/python/intermediate/lambda/</loc>
-         <lastmod>2022-10-05</lastmod>
+         <lastmod>2022-10-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://www.octallium.com/tutorials/python/intermediate/list-comprehensions/</loc>
-         <lastmod>2022-10-05</lastmod>
+         <lastmod>2022-10-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://www.octallium.com/tutorials/python/intermediate/logging/</loc>
-         <lastmod>2022-10-05</lastmod>
+         <lastmod>2022-10-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://www.octallium.com/tutorials/python/intermediate/magic-methods/</loc>
-         <lastmod>2022-10-05</lastmod>
+         <lastmod>2022-10-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://www.octallium.com/tutorials/python/intermediate/multi-threading/</loc>
-         <lastmod>2022-10-05</lastmod>
+         <lastmod>2022-10-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://www.octallium.com/tutorials/python/intermediate/named-tuple/</loc>
-         <lastmod>2022-10-05</lastmod>
+         <lastmod>2022-10-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://www.octallium.com/tutorials/python/intermediate/regular-expression/</loc>
-         <lastmod>2022-10-05</lastmod>
+         <lastmod>2022-10-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://www.octallium.com/tutorials/python/intermediate/testing/</loc>
-         <lastmod>2022-10-05</lastmod>
+         <lastmod>2022-10-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>

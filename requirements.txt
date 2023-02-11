@@ -11,7 +11,7 @@ filelock==3.7.1
 ghp-import==2.0.2
 htmlmin==0.1.12
 importlib-metadata==4.11.1
-ipython==8.4.0
+ipython==8.10.0
 jedi==0.18.1
 Jinja2==3.0.3
 jsmin==3.0.1

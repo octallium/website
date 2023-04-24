@@ -61,6 +61,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://www.octallium.com/tutorials/</loc>
+         <lastmod>2023-04-24</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://www.octallium.com/tutorials/elixir/basics/agent/</loc>
          <lastmod>2023-04-24</lastmod>
          <changefreq>daily</changefreq>
@@ -227,6 +232,91 @@
     </url>
     <url>
          <loc>https://www.octallium.com/tutorials/elixir/basics/testing/</loc>
+         <lastmod>2023-04-24</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://www.octallium.com/tutorials/go/basic/add-comment/</loc>
+         <lastmod>2023-04-24</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://www.octallium.com/tutorials/go/basic/array/</loc>
+         <lastmod>2023-04-24</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://www.octallium.com/tutorials/go/basic/basic-data-types/</loc>
+         <lastmod>2023-04-24</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://www.octallium.com/tutorials/go/basic/basic/</loc>
+         <lastmod>2023-04-24</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://www.octallium.com/tutorials/go/basic/for_loops/</loc>
+         <lastmod>2023-04-24</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://www.octallium.com/tutorials/go/basic/functions/</loc>
+         <lastmod>2023-04-24</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://www.octallium.com/tutorials/go/basic/hello-world-understand/</loc>
+         <lastmod>2023-04-24</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://www.octallium.com/tutorials/go/basic/hello-world/</loc>
+         <lastmod>2023-04-24</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://www.octallium.com/tutorials/go/basic/if-else/</loc>
+         <lastmod>2023-04-24</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://www.octallium.com/tutorials/go/basic/map/</loc>
+         <lastmod>2023-04-24</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://www.octallium.com/tutorials/go/basic/packages/</loc>
+         <lastmod>2023-04-24</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://www.octallium.com/tutorials/go/basic/shorthand-declaration/</loc>
+         <lastmod>2023-04-24</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://www.octallium.com/tutorials/go/basic/slice/</loc>
+         <lastmod>2023-04-24</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://www.octallium.com/tutorials/go/basic/variables-constants/</loc>
+         <lastmod>2023-04-24</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://www.octallium.com/tutorials/go/getting-started/editor_ide/</loc>
+         <lastmod>2023-04-24</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://www.octallium.com/tutorials/go/getting-started/installation/</loc>
+         <lastmod>2023-04-24</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://www.octallium.com/tutorials/go/getting-started/why-go/</loc>
          <lastmod>2023-04-24</lastmod>
          <changefreq>daily</changefreq>
     </url>

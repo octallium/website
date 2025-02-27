@@ -14,7 +14,7 @@
         <link rel="prev" href="../about/">
       
       
-        <link rel="next" href="../courses/elixir/mastering-concurrency-in-elixir/">
+        <link rel="next" href="archive/2025/">
       
       
       <link rel="icon" href="../assets/brand/logo_octallium.png">
@@ -499,9 +499,27 @@
   
   
   
-    <li class="md-nav__item">
-      <a href=".." class="md-nav__link">
+    
+    
+    
+      
+      
         
+          
+          
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_2" id="__nav_3_2_label" tabindex="">
+            
   
   <span class="md-ellipsis">
     Archive
@@ -509,7 +527,43 @@
   </span>
   
 
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_2">
+            <span class="md-nav__icon md-icon"></span>
+            Archive
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="archive/2025/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    2025
+    
+  </span>
+  
+
       </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
     </li>
   
 
@@ -1396,6 +1450,160 @@
         <h1 id="blog-posts">Blog Posts</h1>
       </header>
       
+        <article class="md-post md-post--excerpt">
+  <header class="md-post__header">
+    
+    <div class="md-post__meta md-meta">
+      <ul class="md-meta__list">
+        <li class="md-meta__item">
+          <time datetime="2025-02-27 00:00:00+00:00">February 27, 2025</time></li>
+        
+        
+          
+          <li class="md-meta__item">
+            
+              3 min read
+            
+          </li>
+        
+      </ul>
+      
+    </div>
+  </header>
+  <div class="md-post__content md-typeset">
+    <h2 id="flight-schedules-from-ssim"><a class="toclink" href="2025/02/27/flight-schedules-from-ssim/">Flight Schedules From SSIM</a></h2>
+<p>IATA SSIM (Standard Schedule Info Manual) to read Flight Schedules.</p>
+<p><img alt="SSIM" src="../assets/images/octallium_ssim_reader.jpeg" /></p>
+<h3 id="background"><a class="toclink" href="2025/02/27/flight-schedules-from-ssim/#background">Background</a></h3>
+<p>As an engineer working with airline industry, I was privileged to work with SSIM files and write a parser tool to read these SSIM files. How I created a high performance parser is a discussion for another post, this post is about trying to understand SSIM file.</p>
+<h3 id="introduction"><a class="toclink" href="2025/02/27/flight-schedules-from-ssim/#introduction">Introduction</a></h3>
+<p>Flight schedules are one of the most fundamental blocks for anyone working with airline industry. Airlines market itself heavily on their adherence to schedules, no one really likes delays!</p>
+<p>But ever wonder how airline and your favorite booking applications or other travel agencies get the airline schedules? Well, there can be multiple ways, but one of the most basic way for bulk schedules is by a big flat file called as <code>SSIM</code>. It is a standardized flat file by IATA and stands for <code>Standard Schedule Info Manual</code>. IATA has published entire manual and is publicly available <a href="https://www.iata.org/en/publications/manuals/standard-schedules-information/">here</a>.</p>
+<p>Depending on the airline, at a time it can have several hundred to millions of records. Also, the time frame can vary from schedules to a couple of weeks to an entire year. So now you get the idea, for BULK flight schedules SSIM is commonly used in industry. There can be many third party agencies who convert these SSIM files into more understandable formats like json or csv.</p>
+<h3 id="records"><a class="toclink" href="2025/02/27/flight-schedules-from-ssim/#records">Records</a></h3>
+<p>Chapter 7 of SSIM manual deals with flight schedules and <code>record</code> form the building blocks for schedule. Records are essentially 200 bytes long and are of 5 types -</p>
+<ol>
+<li>Header Record -&gt; 1</li>
+<li>Carrier Record -&gt; 2</li>
+<li>Flight Leg Record -&gt; 3</li>
+<li>Segment Record -&gt; 4</li>
+<li>Trailer Record -&gt; 5</li>
+</ol>
+<p>The layout of these 200 bytes is slightly more invovled to mention here, refer the manual for details, but below are examples of how these <code>raw records</code> and <code>parsed records</code> look like.</p>
+<h4 id="1-header-record"><a class="toclink" href="2025/02/27/flight-schedules-from-ssim/#1-header-record">1. Header Record</a></h4>
+<p>Raw Record -</p>
+<div class="language-text highlight"><pre><span></span><code>1AIRLINE STANDARD SCHEDULE DATA SET                                                                                                                                                            001000001
+</code></pre></div>
+<p>Parsed -</p>
+<div class="language-json highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="p">[</span>
+</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="w">    </span><span class="err">record_</span><span class="kc">t</span><span class="err">ype</span><span class="p">:</span><span class="w"> </span><span class="mi">1</span><span class="p">,</span>
+</span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a><span class="w">    </span><span class="kc">t</span><span class="err">i</span><span class="kc">tle</span><span class="err">_o</span><span class="kc">f</span><span class="err">_co</span><span class="kc">ntents</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;AIRLINE STANDARD SCHEDULE DATA SET&quot;</span><span class="p">,</span>
+</span><span id="__span-0-4"><a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a><span class="w">    </span><span class="err">da</span><span class="kc">ta</span><span class="err">_se</span><span class="kc">t</span><span class="err">_serial_</span><span class="kc">nu</span><span class="err">mber</span><span class="p">:</span><span class="w"> </span><span class="mi">1</span><span class="p">,</span>
+</span><span id="__span-0-5"><a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a><span class="w">    </span><span class="err">record_serial_</span><span class="kc">nu</span><span class="err">mber</span><span class="p">:</span><span class="w"> </span><span class="mi">1</span>
+</span><span id="__span-0-6"><a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a><span class="p">]</span>
+</span></code></pre></div>
+<h4 id="2-carrier-record"><a class="toclink" href="2025/02/27/flight-schedules-from-ssim/#2-carrier-record">2. Carrier Record</a></h4>
+<p>Raw Record -</p>
+<div class="language-text highlight"><pre><span></span><code>2UXX  0008    07DEC2103MAR2203DEC21Created by OCTLM Airlines           PCreated by OCTLM Airlines                                                                                           EN2100000002
+</code></pre></div>
+<p>Parsed -</p>
+<div class="language-json highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="p">[</span>
+</span><span id="__span-1-2"><a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a><span class="w">    </span><span class="err">record_</span><span class="kc">t</span><span class="err">ype</span><span class="p">:</span><span class="w"> </span><span class="mi">2</span><span class="p">,</span>
+</span><span id="__span-1-3"><a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a><span class="w">    </span><span class="kc">t</span><span class="err">ime_mode</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;U&quot;</span><span class="p">,</span>
+</span><span id="__span-1-4"><a id="__codelineno-1-4" name="__codelineno-1-4" href="#__codelineno-1-4"></a><span class="w">    </span><span class="err">airli</span><span class="kc">ne</span><span class="err">_desig</span><span class="kc">nat</span><span class="err">or</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;XX&quot;</span><span class="p">,</span>
+</span><span id="__span-1-5"><a id="__codelineno-1-5" name="__codelineno-1-5" href="#__codelineno-1-5"></a><span class="w">    </span><span class="err">spare</span><span class="mi">1</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;0008&quot;</span><span class="p">,</span>
+</span><span id="__span-1-6"><a id="__codelineno-1-6" name="__codelineno-1-6" href="#__codelineno-1-6"></a><span class="w">    </span><span class="err">validi</span><span class="kc">t</span><span class="err">y_s</span><span class="kc">tart</span><span class="err">_da</span><span class="kc">te</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;2021-12-07&quot;</span><span class="p">,</span>
+</span><span id="__span-1-7"><a id="__codelineno-1-7" name="__codelineno-1-7" href="#__codelineno-1-7"></a><span class="w">    </span><span class="err">validi</span><span class="kc">t</span><span class="err">y_e</span><span class="kc">n</span><span class="err">d_da</span><span class="kc">te</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;2022-03-03&quot;</span><span class="p">,</span>
+</span><span id="__span-1-8"><a id="__codelineno-1-8" name="__codelineno-1-8" href="#__codelineno-1-8"></a><span class="w">    </span><span class="err">crea</span><span class="kc">t</span><span class="err">io</span><span class="kc">n</span><span class="err">_da</span><span class="kc">te</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;2021-12-03&quot;</span><span class="p">,</span>
+</span><span id="__span-1-9"><a id="__codelineno-1-9" name="__codelineno-1-9" href="#__codelineno-1-9"></a><span class="w">    </span><span class="kc">t</span><span class="err">i</span><span class="kc">tle</span><span class="err">_o</span><span class="kc">f</span><span class="err">_da</span><span class="kc">ta</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Created by OCTLM Airlines&quot;</span><span class="p">,</span>
+</span><span id="__span-1-10"><a id="__codelineno-1-10" name="__codelineno-1-10" href="#__codelineno-1-10"></a><span class="w">    </span><span class="err">schedule_s</span><span class="kc">tatus</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;P&quot;</span><span class="p">,</span>
+</span><span id="__span-1-11"><a id="__codelineno-1-11" name="__codelineno-1-11" href="#__codelineno-1-11"></a><span class="w">    </span><span class="err">crea</span><span class="kc">t</span><span class="err">or_re</span><span class="kc">feren</span><span class="err">ce</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Created by OCTLM Airlines&quot;</span><span class="p">,</span>
+</span><span id="__span-1-12"><a id="__codelineno-1-12" name="__codelineno-1-12" href="#__codelineno-1-12"></a><span class="w">    </span><span class="err">e</span><span class="kc">t</span><span class="err">k</span><span class="kc">t</span><span class="err">_i</span><span class="kc">nf</span><span class="err">o</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;EN&quot;</span><span class="p">,</span>
+</span><span id="__span-1-13"><a id="__codelineno-1-13" name="__codelineno-1-13" href="#__codelineno-1-13"></a><span class="w">    </span><span class="err">crea</span><span class="kc">t</span><span class="err">io</span><span class="kc">n</span><span class="err">_</span><span class="kc">t</span><span class="err">ime</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;21:00:00&quot;</span><span class="p">,</span>
+</span><span id="__span-1-14"><a id="__codelineno-1-14" name="__codelineno-1-14" href="#__codelineno-1-14"></a><span class="w">    </span><span class="err">record_serial_</span><span class="kc">nu</span><span class="err">mber</span><span class="p">:</span><span class="w"> </span><span class="mi">2</span>
+</span><span id="__span-1-15"><a id="__codelineno-1-15" name="__codelineno-1-15" href="#__codelineno-1-15"></a><span class="p">]</span>
+</span></code></pre></div>
+<h4 id="3-flight-leg-record"><a class="toclink" href="2025/02/27/flight-schedules-from-ssim/#3-flight-leg-record">3. Flight Leg Record</a></h4>
+<p>Raw Record -</p>
+<div class="language-text highlight"><pre><span></span><code>3 XX  0450101J07DEC2402FEB251234567 ABC23502350+1000I XYZ06000600+0800I 7M8XX                                                                       X                       J8Y174                000003
+</code></pre></div>
+<p>Parsed -</p>
+<div class="language-json highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="p">[</span>
+</span><span id="__span-2-2"><a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a><span class="w">    </span><span class="err">aircra</span><span class="kc">ft</span><span class="err">_co</span><span class="kc">nf</span><span class="err">igura</span><span class="kc">t</span><span class="err">io</span><span class="kc">n</span><span class="err">_versio</span><span class="kc">n</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;J8Y174&quot;</span><span class="p">,</span>
+</span><span id="__span-2-3"><a id="__codelineno-2-3" name="__codelineno-2-3" href="#__codelineno-2-3"></a><span class="w">    </span><span class="err">​aircra</span><span class="kc">ft</span><span class="err">_</span><span class="kc">t</span><span class="err">ype</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;7M8&quot;</span><span class="p">,</span>
+</span><span id="__span-2-4"><a id="__codelineno-2-4" name="__codelineno-2-4" href="#__codelineno-2-4"></a><span class="w">    </span><span class="err">​airli</span><span class="kc">ne</span><span class="err">_desig</span><span class="kc">nat</span><span class="err">or</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;XX&quot;</span><span class="p">,</span>
+</span><span id="__span-2-5"><a id="__codelineno-2-5" name="__codelineno-2-5" href="#__codelineno-2-5"></a><span class="w">    </span><span class="err">​arrival_s</span><span class="kc">tat</span><span class="err">io</span><span class="kc">n</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;XYZ&quot;</span><span class="p">,</span>
+</span><span id="__span-2-6"><a id="__codelineno-2-6" name="__codelineno-2-6" href="#__codelineno-2-6"></a><span class="w">    </span><span class="err">​days_o</span><span class="kc">f</span><span class="err">_opera</span><span class="kc">t</span><span class="err">io</span><span class="kc">n</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w"> </span><span class="mi">1</span><span class="p">,</span><span class="w"> </span><span class="mi">2</span><span class="p">,</span><span class="w"> </span><span class="mi">3</span><span class="p">,</span><span class="w"> </span><span class="mi">4</span><span class="p">,</span><span class="w"> </span><span class="mi">5</span><span class="p">,</span><span class="w"> </span><span class="mi">6</span><span class="p">,</span><span class="w"> </span><span class="mi">7</span><span class="w"> </span><span class="p">],</span>
+</span><span id="__span-2-7"><a id="__codelineno-2-7" name="__codelineno-2-7" href="#__codelineno-2-7"></a><span class="w">    </span><span class="err">​depar</span><span class="kc">ture</span><span class="err">_s</span><span class="kc">tat</span><span class="err">io</span><span class="kc">n</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;ABC&quot;</span><span class="p">,</span>
+</span><span id="__span-2-8"><a id="__codelineno-2-8" name="__codelineno-2-8" href="#__codelineno-2-8"></a><span class="w">    </span><span class="err">​</span><span class="kc">fl</span><span class="err">igh</span><span class="kc">t</span><span class="err">_</span><span class="kc">nu</span><span class="err">mber</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;045&quot;</span><span class="p">,</span>
+</span><span id="__span-2-9"><a id="__codelineno-2-9" name="__codelineno-2-9" href="#__codelineno-2-9"></a><span class="w">    </span><span class="err">​i</span><span class="kc">t</span><span class="err">i</span><span class="kc">nerar</span><span class="err">y_varia</span><span class="kc">t</span><span class="err">io</span><span class="kc">n</span><span class="err">_ide</span><span class="kc">nt</span><span class="err">i</span><span class="kc">f</span><span class="err">ier</span><span class="p">:</span><span class="w"> </span><span class="mi">1</span><span class="p">,</span>
+</span><span id="__span-2-10"><a id="__codelineno-2-10" name="__codelineno-2-10" href="#__codelineno-2-10"></a><span class="w">    </span><span class="err">​leg_seque</span><span class="kc">n</span><span class="err">ce_</span><span class="kc">nu</span><span class="err">mber</span><span class="p">:</span><span class="w"> </span><span class="mi">1</span><span class="p">,</span>
+</span><span id="__span-2-11"><a id="__codelineno-2-11" name="__codelineno-2-11" href="#__codelineno-2-11"></a><span class="w">    </span><span class="err">​opera</span><span class="kc">t</span><span class="err">i</span><span class="kc">n</span><span class="err">g_airli</span><span class="kc">ne</span><span class="err">_disclosure</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;X&quot;</span><span class="p">,</span>
+</span><span id="__span-2-12"><a id="__codelineno-2-12" name="__codelineno-2-12" href="#__codelineno-2-12"></a><span class="w">    </span><span class="err">​opera</span><span class="kc">t</span><span class="err">io</span><span class="kc">nal</span><span class="err">_</span><span class="kc">fr</span><span class="err">om</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;2024-12-07&quot;</span><span class="p">,</span>
+</span><span id="__span-2-13"><a id="__codelineno-2-13" name="__codelineno-2-13" href="#__codelineno-2-13"></a><span class="w">    </span><span class="err">​opera</span><span class="kc">t</span><span class="err">io</span><span class="kc">nal</span><span class="err">_</span><span class="kc">t</span><span class="err">o</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;2025-02-02&quot;</span><span class="p">,</span>
+</span><span id="__span-2-14"><a id="__codelineno-2-14" name="__codelineno-2-14" href="#__codelineno-2-14"></a><span class="w">    </span><span class="err">​passe</span><span class="kc">n</span><span class="err">ger_reserva</span><span class="kc">t</span><span class="err">io</span><span class="kc">ns</span><span class="err">_booki</span><span class="kc">n</span><span class="err">g_desig</span><span class="kc">nat</span><span class="err">or</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;XX&quot;</span><span class="p">,</span>
+</span><span id="__span-2-15"><a id="__codelineno-2-15" name="__codelineno-2-15" href="#__codelineno-2-15"></a><span class="w">    </span><span class="err">​passe</span><span class="kc">n</span><span class="err">ger_</span><span class="kc">ter</span><span class="err">mi</span><span class="kc">nal</span><span class="err">_arrival</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;I&quot;</span><span class="p">,</span>
+</span><span id="__span-2-16"><a id="__codelineno-2-16" name="__codelineno-2-16" href="#__codelineno-2-16"></a><span class="w">    </span><span class="err">​passe</span><span class="kc">n</span><span class="err">ger_</span><span class="kc">ter</span><span class="err">mi</span><span class="kc">nal</span><span class="err">_depar</span><span class="kc">ture</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;I&quot;</span><span class="p">,</span>
+</span><span id="__span-2-17"><a id="__codelineno-2-17" name="__codelineno-2-17" href="#__codelineno-2-17"></a><span class="w">    </span><span class="err">​record_serial_</span><span class="kc">nu</span><span class="err">mber</span><span class="p">:</span><span class="w"> </span><span class="mi">3</span><span class="p">,</span>
+</span><span id="__span-2-18"><a id="__codelineno-2-18" name="__codelineno-2-18" href="#__codelineno-2-18"></a><span class="w">    </span><span class="err">​record_</span><span class="kc">t</span><span class="err">ype</span><span class="p">:</span><span class="w"> </span><span class="mi">3</span><span class="p">,</span>
+</span><span id="__span-2-19"><a id="__codelineno-2-19" name="__codelineno-2-19" href="#__codelineno-2-19"></a><span class="w">    </span><span class="err">​scheduled_</span><span class="kc">t</span><span class="err">ime_aircra</span><span class="kc">ft</span><span class="err">_arrival</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;06:00:00&quot;</span><span class="p">,</span>
+</span><span id="__span-2-20"><a id="__codelineno-2-20" name="__codelineno-2-20" href="#__codelineno-2-20"></a><span class="w">    </span><span class="err">​scheduled_</span><span class="kc">t</span><span class="err">ime_aircra</span><span class="kc">ft</span><span class="err">_depar</span><span class="kc">ture</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;23:50:00&quot;</span><span class="p">,</span>
+</span><span id="__span-2-21"><a id="__codelineno-2-21" name="__codelineno-2-21" href="#__codelineno-2-21"></a><span class="w">    </span><span class="err">​scheduled_</span><span class="kc">t</span><span class="err">ime_passe</span><span class="kc">n</span><span class="err">ger_arrival</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;06:00:00&quot;</span><span class="p">,</span>
+</span><span id="__span-2-22"><a id="__codelineno-2-22" name="__codelineno-2-22" href="#__codelineno-2-22"></a><span class="w">    </span><span class="err">​scheduled_</span><span class="kc">t</span><span class="err">ime_passe</span><span class="kc">n</span><span class="err">ger_depar</span><span class="kc">ture</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;23:50:00&quot;</span><span class="p">,</span>
+</span><span id="__span-2-23"><a id="__codelineno-2-23" name="__codelineno-2-23" href="#__codelineno-2-23"></a><span class="w">    </span><span class="err">​service_</span><span class="kc">t</span><span class="err">ype</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;J&quot;</span><span class="p">,</span>
+</span><span id="__span-2-24"><a id="__codelineno-2-24" name="__codelineno-2-24" href="#__codelineno-2-24"></a><span class="w">    </span><span class="err">​u</span><span class="kc">t</span><span class="err">c_local_</span><span class="kc">t</span><span class="err">ime_varia</span><span class="kc">t</span><span class="err">io</span><span class="kc">n</span><span class="err">_arrival</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;+0800&quot;</span><span class="p">,</span>
+</span><span id="__span-2-25"><a id="__codelineno-2-25" name="__codelineno-2-25" href="#__codelineno-2-25"></a><span class="w">    </span><span class="err">​u</span><span class="kc">t</span><span class="err">c_local_</span><span class="kc">t</span><span class="err">ime_varia</span><span class="kc">t</span><span class="err">io</span><span class="kc">n</span><span class="err">_depar</span><span class="kc">ture</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;+1000&quot;</span><span class="p">,</span>
+</span><span id="__span-2-26"><a id="__codelineno-2-26" name="__codelineno-2-26" href="#__codelineno-2-26"></a><span class="p">]</span>
+</span></code></pre></div>
+<h4 id="4-segment-record"><a class="toclink" href="2025/02/27/flight-schedules-from-ssim/#4-segment-record">4. Segment Record</a></h4>
+<p>Raw Record -</p>
+<div class="language-text highlight"><pre><span></span><code>4 XX  0450101J              AB106ABCXYZJCDZYBWHKLREONVPQTISFUMAGX                                                                                                                                 000004
+</code></pre></div>
+<p>Parsed -</p>
+<div class="language-json highlight"><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a><span class="p">[</span>
+</span><span id="__span-3-2"><a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a><span class="w">    </span><span class="err">record_</span><span class="kc">t</span><span class="err">ype</span><span class="p">:</span><span class="w"> </span><span class="mi">4</span><span class="p">,</span>
+</span><span id="__span-3-3"><a id="__codelineno-3-3" name="__codelineno-3-3" href="#__codelineno-3-3"></a><span class="w">    </span><span class="err">airli</span><span class="kc">ne</span><span class="err">_desig</span><span class="kc">nat</span><span class="err">or</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;XX&quot;</span><span class="p">,</span>
+</span><span id="__span-3-4"><a id="__codelineno-3-4" name="__codelineno-3-4" href="#__codelineno-3-4"></a><span class="w">    </span><span class="kc">fl</span><span class="err">igh</span><span class="kc">t</span><span class="err">_</span><span class="kc">nu</span><span class="err">mber</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;045&quot;</span><span class="p">,</span>
+</span><span id="__span-3-5"><a id="__codelineno-3-5" name="__codelineno-3-5" href="#__codelineno-3-5"></a><span class="w">    </span><span class="err">i</span><span class="kc">t</span><span class="err">i</span><span class="kc">nerar</span><span class="err">y_varia</span><span class="kc">t</span><span class="err">io</span><span class="kc">n</span><span class="err">_ide</span><span class="kc">nt</span><span class="err">i</span><span class="kc">f</span><span class="err">ier</span><span class="p">:</span><span class="w"> </span><span class="mi">1</span><span class="p">,</span>
+</span><span id="__span-3-6"><a id="__codelineno-3-6" name="__codelineno-3-6" href="#__codelineno-3-6"></a><span class="w">    </span><span class="err">leg_seque</span><span class="kc">n</span><span class="err">ce_</span><span class="kc">nu</span><span class="err">mber</span><span class="p">:</span><span class="w"> </span><span class="mi">1</span><span class="p">,</span>
+</span><span id="__span-3-7"><a id="__codelineno-3-7" name="__codelineno-3-7" href="#__codelineno-3-7"></a><span class="w">    </span><span class="err">service_</span><span class="kc">t</span><span class="err">ype</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;J&quot;</span><span class="p">,</span>
+</span><span id="__span-3-8"><a id="__codelineno-3-8" name="__codelineno-3-8" href="#__codelineno-3-8"></a><span class="w">    </span><span class="err">board_poi</span><span class="kc">nt</span><span class="err">_i</span><span class="kc">n</span><span class="err">dica</span><span class="kc">t</span><span class="err">or</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;A&quot;</span><span class="p">,</span>
+</span><span id="__span-3-9"><a id="__codelineno-3-9" name="__codelineno-3-9" href="#__codelineno-3-9"></a><span class="w">    </span><span class="err">o</span><span class="kc">ff</span><span class="err">_poi</span><span class="kc">nt</span><span class="err">_i</span><span class="kc">n</span><span class="err">dica</span><span class="kc">t</span><span class="err">or</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;B&quot;</span><span class="p">,</span>
+</span><span id="__span-3-10"><a id="__codelineno-3-10" name="__codelineno-3-10" href="#__codelineno-3-10"></a><span class="w">    </span><span class="err">da</span><span class="kc">ta</span><span class="err">_eleme</span><span class="kc">nt</span><span class="err">_ide</span><span class="kc">nt</span><span class="err">i</span><span class="kc">f</span><span class="err">ier</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;106&quot;</span><span class="p">,</span>
+</span><span id="__span-3-11"><a id="__codelineno-3-11" name="__codelineno-3-11" href="#__codelineno-3-11"></a><span class="w">    </span><span class="err">board_poi</span><span class="kc">nt</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;ABC&quot;</span><span class="p">,</span>
+</span><span id="__span-3-12"><a id="__codelineno-3-12" name="__codelineno-3-12" href="#__codelineno-3-12"></a><span class="w">    </span><span class="err">o</span><span class="kc">ff</span><span class="err">_poi</span><span class="kc">nt</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;XYZ&quot;</span><span class="p">,</span>
+</span><span id="__span-3-13"><a id="__codelineno-3-13" name="__codelineno-3-13" href="#__codelineno-3-13"></a><span class="w">    </span><span class="err">da</span><span class="kc">ta</span><span class="err">_associa</span><span class="kc">te</span><span class="err">d_wi</span><span class="kc">t</span><span class="err">h_ide</span><span class="kc">nt</span><span class="err">i</span><span class="kc">f</span><span class="err">ier</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;JCDZYBWHKLREONVPQTISFUMAGX&quot;</span><span class="p">,</span>
+</span><span id="__span-3-14"><a id="__codelineno-3-14" name="__codelineno-3-14" href="#__codelineno-3-14"></a><span class="w">    </span><span class="err">record_serial_</span><span class="kc">nu</span><span class="err">mber</span><span class="p">:</span><span class="w"> </span><span class="mi">4</span>
+</span><span id="__span-3-15"><a id="__codelineno-3-15" name="__codelineno-3-15" href="#__codelineno-3-15"></a><span class="p">]</span>
+</span></code></pre></div>
+<h4 id="5-trailer-record"><a class="toclink" href="2025/02/27/flight-schedules-from-ssim/#5-trailer-record">5. Trailer Record</a></h4>
+<p>Raw Record -</p>
+<div class="language-text highlight"><pre><span></span><code>5 XX 03DEC21                                                                                                                                                                               000989E000990
+</code></pre></div>
+<p>Parsed -</p>
+<div class="language-json highlight"><pre><span></span><code><span id="__span-4-1"><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a><span class="p">[</span>
+</span><span id="__span-4-2"><a id="__codelineno-4-2" name="__codelineno-4-2" href="#__codelineno-4-2"></a><span class="w">    </span><span class="err">record_</span><span class="kc">t</span><span class="err">ype</span><span class="p">:</span><span class="w"> </span><span class="mi">5</span><span class="p">,</span>
+</span><span id="__span-4-3"><a id="__codelineno-4-3" name="__codelineno-4-3" href="#__codelineno-4-3"></a><span class="w">    </span><span class="err">airli</span><span class="kc">ne</span><span class="err">_desig</span><span class="kc">nat</span><span class="err">or</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;XX&quot;</span><span class="p">,</span>
+</span><span id="__span-4-4"><a id="__codelineno-4-4" name="__codelineno-4-4" href="#__codelineno-4-4"></a><span class="w">    </span><span class="err">release_da</span><span class="kc">te</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;2021-12-03&quot;</span><span class="p">,</span>
+</span><span id="__span-4-5"><a id="__codelineno-4-5" name="__codelineno-4-5" href="#__codelineno-4-5"></a><span class="w">    </span><span class="err">serial_</span><span class="kc">nu</span><span class="err">mber_check_re</span><span class="kc">f</span><span class="p">:</span><span class="w"> </span><span class="mi">989</span><span class="p">,</span>
+</span><span id="__span-4-6"><a id="__codelineno-4-6" name="__codelineno-4-6" href="#__codelineno-4-6"></a><span class="w">    </span><span class="err">co</span><span class="kc">nt</span><span class="err">i</span><span class="kc">nuat</span><span class="err">io</span><span class="kc">n</span><span class="err">_e</span><span class="kc">n</span><span class="err">d_code</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;E&quot;</span><span class="p">,</span>
+</span><span id="__span-4-7"><a id="__codelineno-4-7" name="__codelineno-4-7" href="#__codelineno-4-7"></a><span class="w">    </span><span class="err">record_serial_</span><span class="kc">nu</span><span class="err">mber</span><span class="p">:</span><span class="w"> </span><span class="mi">990</span>
+</span><span id="__span-4-8"><a id="__codelineno-4-8" name="__codelineno-4-8" href="#__codelineno-4-8"></a><span class="p">]</span>
+</span></code></pre></div>
+    
+  </div>
+</article>
+      
+      
+        
+          
+
+
+
+<nav class="md-pagination">
+  
+</nav>
+        
       
     </div>
   </div>
@@ -1436,13 +1644,13 @@
         
         
           
-          <a href="../courses/elixir/mastering-concurrency-in-elixir/" class="md-footer__link md-footer__link--next" aria-label="Next: Mastering Concurrency &amp; OTP in Elixir">
+          <a href="archive/2025/" class="md-footer__link md-footer__link--next" aria-label="Next: 2025">
             <div class="md-footer__title">
               <span class="md-footer__direction">
                 Next
               </span>
               <div class="md-ellipsis">
-                Mastering Concurrency & OTP in Elixir
+                2025
               </div>
             </div>
             <div class="md-footer__button md-icon">
